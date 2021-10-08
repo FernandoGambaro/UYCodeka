@@ -1,0 +1,2 @@
+lp: Error - unknown option "--foo=1".
+lp: Error - unknown option "--foo=1".

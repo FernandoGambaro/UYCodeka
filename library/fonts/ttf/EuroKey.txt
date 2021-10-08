@@ -1,0 +1,77 @@
+P22 font Euro symbols key chart
+
+P22 fonts from the last two years include a Euro symbol in the alt-0164 position. Some earlier fonts contain the symbol in other positions or not at all. this font presents the most complete selection of P22 Euro symbols available. They can be used with ther counterpart fonts when the need arises.
+
+a- Acropolis
+b- Albers Two
+c- Albers Three
+d- Arts and Crafts Regular
+e- Bagaglio 3-D
+f- Bagaglio Flat
+g- Bayer Universal
+h- Bayer Shadow
+i- Bayer Fonetik
+j- Cage Text
+k- Cezanne regular
+l- Constructivist
+m- Construcivist Square
+n- Preissig Roman
+o- Preissig Scrape
+p- da Vinci forward
+q- Daddy-O Hip
+r- Daddy-O Square
+s- Daddy-O Junkie
+t- Arts and Crafts Hunter
+u- Arts and Crafts Tall
+v- Destijl
+w- DeStijl Tall
+x- Destijl Stencil
+y- Escher Hand
+z- Escher Regular
+A- FLLW Eaglefeather Regular
+B- FLLW Eaglefeather Bold
+C- FLLW Eaglefeather Italic
+D- FLLW Eaglefeather Bold Italic
+E- FLLW Exhibition Regular
+F- FLLW Exhibition Bold
+G- FLLW Exhibition Light
+H- FLLW Terracotta Regular
+I- FLLW Terracotta Alternate
+J- Folk Art Square
+K- Folk Art Cross
+L- Folk Art Block
+M- Folk Art Stitch
+N- Garamouche
+O- Hopper Edward
+P- Hopper Josephine
+Q- Il Futurismo
+R- Infestia
+S- Kane
+T- Kells Round
+U- Kells Square
+V- Koch Nueland
+W- Johnston Underground Regular
+X- Johnston Underground Bold
+Y- Monet Impressionist
+Z- Monet Regular
+0- ToyBox regular
+1- Pan Am
+2- Parrish Hand
+3- Parrish Roman
+4- Pop Art Comic
+5- Pop Art Comic Bold Italic
+6- Pop At Stencil
+7- Prehistoric Pen
+8- Michelangelo 
+9- Rodin
+[- Stanyan Bold
+]- Stanyan Regular
+\- Victorian Gothic
+(- Victorian Swash
+)- Vienna Round
+*- Vienna Black
+!- Vienna Regular
+"- Vincent
+#- Way Out West Regular
+%- Way Out West Slim
+&- Woodcut

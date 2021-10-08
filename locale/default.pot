@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-30 22:41-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: menu.php:251
+msgid "Inicio"
+msgstr ""
+
+#: menu.php:253
+msgid "Trabajos"
+msgstr ""
+
+#: menu.php:260
+msgid "Control Horas"
+msgstr ""
+
+#: menu.php:265
+msgid "Evaluación/Feedback"
+msgstr ""
+
+#: menu.php:272
+msgid "Orden de pedido"
+msgstr ""
+
+#: menu.php:276
+msgid "Presupuestos"
+msgstr ""
+
+#: menu.php:280
+msgid "Documentos"
+msgstr ""
+
+#: menu.php:287
+msgid "Prog. auto facturas"
+msgstr ""
+
+#: menu.php:291 menu.php:349
+msgid "Ventas"
+msgstr ""
+
+#: menu.php:295
+msgid "Cobros rápido"
+msgstr ""
+
+#: menu.php:299
+msgid "Cobros"
+msgstr ""
+
+#: menu.php:303
+msgid "Compras"
+msgstr ""
+
+#: menu.php:307
+msgid "Pagos"
+msgstr ""
+
+#: menu.php:314
+msgid "Pagos DGI"
+msgstr ""
+
+#: menu.php:324
+msgid "Subir archivos de recibos"
+msgstr ""
+
+#: menu.php:338
+msgid "Reportes"
+msgstr ""
+
+#: menu.php:345
+msgid "Varios"
+msgstr ""
+
+#: menu.php:353
+msgid "Abonados"
+msgstr ""
+
+#: menu.php:357
+msgid "Articulos"
+msgstr ""
+
+#: menu.php:364
+msgid "UYCodeka"
+msgstr ""
+
+#: menu.php:380
+msgid "Cancelar"
+msgstr ""
+
+#: menu.php:389
+msgid "Mantenimiento"
+msgstr ""
+
+#: menu.php:393
+msgid "Cambio contraseña"
+msgstr ""
+
+#: menu.php:397
+msgid "Clientes"
+msgstr ""
+
+#: menu.php:401
+msgid "Proveedores"
+msgstr ""
+
+#: menu.php:406
+msgid "Usuarios"
+msgstr ""
+
+#: menu.php:410
+msgid "Artículos en tránsito"
+msgstr ""
+
+#: menu.php:417
+msgid "Artículoso"
+msgstr ""
+
+#: menu.php:421
+msgid "Familias artículos"
+msgstr ""
+
+#: menu.php:425
+msgid "Sectores de la empresa"
+msgstr ""
+
+#: menu.php:429
+msgid "Datos del sistema"
+msgstr ""
+
+#: menu.php:433
+msgid "Equipos huella digital"
+msgstr ""
+
+#: menu.php:437
+msgid "Bancos"
+msgstr ""
+
+#: menu.php:441
+msgid "Plan de cuentas"
+msgstr ""
+
+#: menu.php:448
+msgid "Locales"
+msgstr ""
+
+#: menu.php:452
+msgid "Formularios"
+msgstr ""
+
+#: menu.php:456
+msgid "Embalajes"
+msgstr ""
+
+#: menu.php:460
+msgid "Formas de pago"
+msgstr ""
+
+#: menu.php:464
+msgid "Tipo de cambio"
+msgstr ""
+
+#: menu.php:468
+msgid "Impuestos"
+msgstr ""
+
+#: menu.php:472
+msgid "Monedas"
+msgstr ""
+
+#: menu.php:476
+msgid "Etiquetas"
+msgstr ""
+
+#: menu.php:483
+msgid "Tareas programadas"
+msgstr ""
+
+#: menu.php:490
+msgid "Sugerencias"
+msgstr ""
+
+#: menu.php:502
+msgid "Datos personales"
+msgstr ""
+
+#: menu.php:503
+msgid "Salir"
+msgstr ""
+
+#: menu.php:553
+msgid "Ayuda"
+msgstr ""
+
+#: menu.php:554
+msgid "Close"
+msgstr ""
+
+#: menu.php:804
+msgid "Impresión iniciada"
+msgstr ""
+
+#: menu.php:847
+msgid "Procesando..."
+msgstr ""

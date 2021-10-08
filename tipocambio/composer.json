@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpro/soap-client": "^0.2.3",
+        "biller/bcu": "^0.1.6"
+    }
+}

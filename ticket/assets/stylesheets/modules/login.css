@@ -1,0 +1,6 @@
+body {
+	background-color: #4867AA;
+}
+body > .grid {
+	height: 100%;
+}

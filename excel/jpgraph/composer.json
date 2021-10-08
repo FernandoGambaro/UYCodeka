@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jpgraph/jpgraph": "^4.0"
+    }
+}

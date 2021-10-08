@@ -1,0 +1,1606 @@
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201801.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201802.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201803.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201804.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201805.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201806.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201807.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201808.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201809.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201810.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201811.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201812.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201813.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201814.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201815.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201816.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201817.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201818.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201819.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201820.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201821.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201822.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201823.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201824.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201825.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201826.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201827.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201828.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201829.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201830.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201831.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201832.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201833.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201834.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201835.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201836.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201837.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201838.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201839.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201840.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201841.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201842.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201843.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201844.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201845.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201846.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201847.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201848.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201849.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201850.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201851.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201852.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201853.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201854.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201855.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201856.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201857.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201858.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201859.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201860.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201861.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AE12201862.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018001.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018002.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018003.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018004.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018005.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018006.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018007.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018008.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018009.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018010.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018011.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018012.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018013.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018014.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018015.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018016.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018017.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018018.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018019.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018020.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018021.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018022.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018023.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018024.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018025.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018026.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018027.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018028.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018029.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018030.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018031.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018032.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018033.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018034.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018035.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018036.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018037.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018038.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018039.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018040.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018041.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018042.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018043.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018044.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018045.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018046.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018047.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018048.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018049.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018050.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018051.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018052.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018053.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018054.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018055.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018056.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018057.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018058.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018059.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018060.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018061.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018062.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018063.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018064.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018065.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018066.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018067.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018068.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018069.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018070.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018071.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018072.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018073.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018074.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018075.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018077.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018078.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018079.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018080.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018081.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018082.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018083.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018084.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018086.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018087.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018088.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018089.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018090.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018091.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018092.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018093.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018094.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018095.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018096.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018097.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018098.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018099.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018100.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018101.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018102.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018103.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018104.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018105.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018106.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018107.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018108.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018109.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018110.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018111.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AL122018112.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220181.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220182.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220183.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220184.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220185.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220186.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220187.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220188.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `AF1220189.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220181.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220184.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220185.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220186.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220187.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SF1220188.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201801.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201802.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201803.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201804.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201805.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201806.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201807.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201808.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201809.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201810.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201811.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201812.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201813.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201814.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201815.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201816.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201817.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201818.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201819.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201820.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201821.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201822.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201823.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201824.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201825.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201826.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201827.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201828.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201829.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201830.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201831.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201832.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201833.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201834.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201835.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201836.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201837.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201838.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201839.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201840.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201841.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201842.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201843.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201844.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201845.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201846.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201847.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201848.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201849.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201850.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201851.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201852.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201853.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201854.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201855.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201856.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201857.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201858.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201859.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201860.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201861.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201862.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SE12201863.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018001.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018002.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018003.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018004.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018005.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018006.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018007.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018008.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018009.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018010.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018011.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018012.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018013.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018014.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018015.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018016.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018017.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018018.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018019.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018020.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018021.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018022.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018023.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018024.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018025.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018026.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018027.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018028.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018029.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018030.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018031.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018032.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018033.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018034.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018035.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018036.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018037.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018038.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018039.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018040.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018041.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018042.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018043.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018044.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018045.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018046.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018047.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018048.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018049.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018050.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018051.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018052.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018053.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018054.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018055.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018056.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018057.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018058.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018059.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018060.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018061.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018062.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018063.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018064.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018065.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018066.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018067.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018068.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018069.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018070.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018071.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018072.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018073.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018074.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018075.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018077.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018078.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018079.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018080.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018081.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018082.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018083.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018084.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018086.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018087.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018088.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018089.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018090.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018091.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018092.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018093.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018094.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018095.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018096.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018097.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018098.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018099.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018100.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018101.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018102.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018103.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018104.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018105.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018106.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018107.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018108.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018109.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018110.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018111.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `SL122018112.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120191.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120192.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120193.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120194.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120195.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VF0120196.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201901.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201902.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201903.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201904.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201905.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201906.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201907.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201908.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201909.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201910.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201911.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201912.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201913.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201914.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201915.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201916.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201917.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201918.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201919.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201920.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201921.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201922.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201923.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201924.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201925.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201926.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201927.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201928.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201929.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201930.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201931.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201932.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201933.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201934.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201935.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201936.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201937.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201938.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201939.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201940.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201941.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201942.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201943.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201944.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201945.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201946.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201947.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201948.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201949.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201950.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201951.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201952.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201953.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201954.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201955.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201956.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201957.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201958.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201959.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VE01201960.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019001.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019002.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019003.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019004.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019005.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019006.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019007.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019008.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019009.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019010.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019011.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019012.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019013.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019014.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019015.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019016.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019017.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019018.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019019.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019020.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019021.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019022.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019023.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019024.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019025.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019026.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019027.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019028.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019029.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019030.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019031.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019032.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019033.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019034.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019035.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019036.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019037.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019038.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019039.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019040.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019041.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019042.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019043.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019044.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019045.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019046.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019047.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019048.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019049.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019050.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019051.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019052.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019053.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019054.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019055.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019056.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019057.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019058.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019059.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019060.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019061.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019062.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019063.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019064.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019065.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019066.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019067.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019068.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019069.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019070.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019071.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019073.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019074.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019075.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019076.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019077.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019078.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019079.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019080.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019081.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019082.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019083.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019084.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019085.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019086.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019087.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019088.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019089.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019090.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019091.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019092.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019093.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019094.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019095.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019096.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019097.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019098.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019099.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019100.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019101.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019102.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019103.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019104.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019105.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `VL012019106.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.
+mv: cannot stat '* *': No such file or directory
+convert: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG `1028.png' @ warning/png.c/MagickPNGWarningHandler/1665.
+expr: missing operand
+Try 'expr --help' for more information.

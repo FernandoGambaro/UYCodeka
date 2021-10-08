@@ -1,0 +1,14 @@
+{
+    "name": "nico/db-manager",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Morena",
+            "email": "nikoxd123@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^4.1"
+    }
+}

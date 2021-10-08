@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.ttf');
+}
+*{ font-family: Raleway !important; }
+i { font-family: Icons !important; }
+.transparent{ background: transparent !important; }
+.transluscent{ background: rgba(0,0,0,0.2) !important; }
+.white.text *{ color: #FFF !important; }
+.name::first-letter{ text-transform: uppercase !important; }
+.unsettext{ text-transform:  unset !important; }
