@@ -484,9 +484,6 @@ if ( $encontrado>0 ) {
 */
 	if ($email!='' and $encontrado>0) {
 
-$email="fernandogambaro@gmail.com";
-$nombre="Soporte";						
-				
 //		$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio;
 		$mail = new PHPMailer(); 
 		// $mail->SMTPDebug = 3;	

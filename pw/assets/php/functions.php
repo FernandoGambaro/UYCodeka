@@ -187,7 +187,7 @@ function sendPasswordEmail($userID)
 	 $mail->Subject = "Su nueva contraseña es:";
 	 // Cuenta de E-Mail Destinatario  
 	 $mail->AddAddress($email,$email);
-	 //$mail->AddAddress("fernandogambaro@gmail.com","Fernando Gambaro");
+	 
 	 $mail->WordWrap = 900;
 	 $mail->IsHTML(true);
 	 

@@ -401,8 +401,7 @@ Con UYCODEKA obtenga rápidamente información sobre el estado de su empresa<br 
 
         echo $message;
 
-//$email="fernandogambaro@gmailecho $message;
-//$nombre="Soporte";						
+			
 				
 //		$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio;
 		$mail = new PHPMailer(); 

@@ -131,7 +131,7 @@ extraigodatos $file
 		
 		rm "$file.txt" >/dev/null
 		//convert $file -crop 1240x870+0+0 $file
-		mv -u $file /home/fernando/ownCloud/www/reciboslogo/data/procesados/$CI-$Anio-IRPF.png >/dev/null
+		mv -u $file /reciboslogo/data/procesados/$CI-$Anio-IRPF.png >/dev/null
 		ArchivoFinal="procesados/$CI-$Anio-IRPF.png"
 		fi
 		

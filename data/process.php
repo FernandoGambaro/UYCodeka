@@ -5,9 +5,9 @@ $config["generate_thumbnails"]			= true;
 $config["image_max_size"] 				= 500; //Maximum image size (height and width)
 $config["thumbnail_size"]  				= 200; //Thumbnails will be cropped to 200x200 pixels
 $config["thumbnail_prefix"]				= "thumb_"; //Normal thumb Prefix
-$config["destination_folder"]			= '/home/fernando/ownCloud/www/uycodeka/data/upload/'; //upload directory ends with / (slash)
-$config["thumbnail_destination_folder"]	= '/home/fernando/ownCloud/www/uycodeca/data/upload/'; //upload directory ends with / (slash)
-$config["upload_url"] 					= "https://uymcc.no-ip.org/data/upload/"; 
+$config["destination_folder"]			= '/uycodeka/data/upload/'; //upload directory ends with / (slash)
+$config["thumbnail_destination_folder"]	= '/uycodeca/data/upload/'; //upload directory ends with / (slash)
+$config["upload_url"] 					= "./data/upload/"; 
 $config["quality"] 						= 90; //jpeg quality
 $config["random_file_name"]				= true; //randomize each file name
 
@@ -52,10 +52,10 @@ if (""!=@$_FILES["__files"]["name"]) {
 	   @unlink($tmp_name);
 
    
-		//$script=proc_open("TERM=linux /usr/bin/sh /home/fernando/ownCloud/www/uycodeka/data/upload/pasodatos.sh ".$archivo." ".$mediopago." ".$cta." --foo=1 &", $fd, $pipes, NULL);
+		//$script=proc_open("TERM=linux /usr/bin/sh ./uycodeka/data/upload/pasodatos.sh ".$archivo." ".$mediopago." ".$cta." --foo=1 &", $fd, $pipes, NULL);
 
-		if (file_exists('/home/fernando/ownCloud/www/uycodeka/data/upload/'.$archivo)) {
-			//$script=proc_open("/home/fernando/ownCloud/www/uycodeka/data/upload/pasodatos.sh ".$archivo." ".$mediopago." ".$cta." --foo=1 &", $fd, $pipes, NULL);
+		if (file_exists('./uycodeka/data/upload/'.$archivo)) {
+			//$script=proc_open("./uycodeka/data/upload/pasodatos.sh ".$archivo." ".$mediopago." ".$cta." --foo=1 &", $fd, $pipes, NULL);
 	$fd = array(
 	0 => array("pipe", "r"),  // stdin
 	1 => array("pipe", "w"),  // stdout
@@ -63,15 +63,15 @@ if (""!=@$_FILES["__files"]["name"]) {
 	);
 	
 	$pipes = array();	
-		$cwd = '/home/fernando/ownCloud/www/uycodeka/data/upload/';	
+		$cwd = './uycodeka/data/upload/';	
 		$env = NULL;
 		$options = array('bypass_shell' => true);
-		$cwd = "/home/fernando/ownCloud/www/uycodeka/data/upload";
-		//$cmd='TERM=linux /usr/bin/bash /home/fernando/ownCloud/www/uycodeka/data/upload/pasodatos.sh '.$archivo.' '.$mediopago.' '.$cta.' --foo=1 &';
+		$cwd = "./uycodeka/data/upload";
+		//$cmd='TERM=linux /usr/bin/bash ./uycodeka/data/upload/pasodatos.sh '.$archivo.' '.$mediopago.' '.$cta.' --foo=1 &';
 		if($accion==1) {
-		$cmd='TERM=linux /home/fernando/ownCloud/www/uycodeka/data/upload/./pasodatos.sh '.$archivo.' '.$mediopago.' '.$cta.' --foo=1 &';
+		$cmd='TERM=linux ./uycodeka/data/upload/./pasodatos.sh '.$archivo.' '.$mediopago.' '.$cta.' --foo=1 &';
 		} else {
-		$cmd='TERM=linux /home/fernando/ownCloud/www/uycodeka/data/upload/./pasodatosirpf.sh '.$archivo.' --foo=1 &';
+		$cmd='TERM=linux ./uycodeka/data/upload/./pasodatosirpf.sh '.$archivo.' --foo=1 &';
 		}
 		$process = proc_open($cmd, $fd, $pipes, $cwd, $env);
 

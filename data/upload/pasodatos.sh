@@ -209,7 +209,7 @@ if [ "$Liquidacionanio" != "" ]; then
 		rm "$file.txt" >/dev/null
 		tpoliq="${LIQ//[[:space:]]/}"
 		convert $file -crop 1240x870+0+0 $file
-		mv -u $file /home/fernando/ownCloud/www/uycodeka/data/procesados/$CI-$Liquidacion-$Liquidacionanio-$tpoliq.png >/dev/null
+		mv -u $file /uycodeka/data/procesados/$CI-$Liquidacion-$Liquidacionanio-$tpoliq.png >/dev/null
 		ArchivoFinal="procesados/$CI-$Liquidacion-$Liquidacionanio-$tpoliq.png"
 		fi
 	fi
