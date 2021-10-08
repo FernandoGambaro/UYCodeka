@@ -1,0 +1,4 @@
+models:
+  - table:
+      name: "product"
+      file: "product.yml"

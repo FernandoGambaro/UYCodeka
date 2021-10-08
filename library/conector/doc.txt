@@ -1,0 +1,75 @@
+Antes de inciar se debe tener instalado composer (https://getcomposer.org/doc/00-intro.md)
+1. ejecutar dentro de esta carpeta composer install
+luego cambiar los datos que se encuentran en config/general.yaml
+name: "prueba"
+  user: "root"
+  pass: ""
+  host: "localhost"
+Una vez hecho esto ya se puede instanciar la clase a la cual el constructor pide la tabla con la 
+cual se va a operar, ejemplo:
+    $a = new Consultas("productos");
+
+ChangeLog Enero-2019
+
+Agregamos la funciones
+
+- Truncate
+Se le envia el nombre de la tabla
+	Borra todo el contenido de la tabla
+Luego se ejecuta: Ejecutar()
+
+- Delete 
+Se le envia el nombre de la tabla
+	El nombre de la tabla
+Luego se coloca el Where
+Luego se ejecuta: Ejecutar()
+
+/////////////////////////
+
+
+-Insert
+Se le envia a la funcion dos array con la siguiente informacion:
+    array1 = nombre de atributos
+    array2 = valor del atributo en el mismo orden con el que se ingreso el nombre
+Luego se ejecuta: Ejecutar()
+
+Update
+Se le envia a la funcion dos array con la siguiente informacion:
+    array1 = nombre de atributos
+    array2 = valor del atributo en el mismo orden con el que se ingreso el nombre
+Luego se le coloca el Where y luego se ejecuta: Ejecutar()
+**En el caso de no enviar el Where la sentencia dara error**
+
+Delete
+Luego de ejecutar esta funcion se le coloca el Where y se ejecuta: Ejecutar()
+**En el caso de no enviar el Where la sentencia dara error**
+
+Select
+Se le puede agregar los atributos que se quieren seleccionar.
+
+Where 
+Se le envia el nombre del atributo y el valor
+Tiene campos opcionales como simbolo de la operacion, por defecto (=). y parentesis según se requira.
+Tambien se le puede enviar el conector de wheres, por defecto (AND),  otra tabla y/o otro atributo.
+
+Join
+Se le envia el atributo, la tabla que se quiere conectar, el tipo de JOIN
+Se puede enviar una segunda tabla y/o otro atributo.
+
+Ejecutar
+Funcion que permite ejecutar todas las sentencias, la cual devuelve el siguiente objeto:
+    [
+        "desde" => "",
+        "estado" => "",
+        "mensaje" => "",
+        "datos" => [],
+        "consulta" => ""
+    ]
+Ejemplo:
+    [
+        "desde" => "consulta",
+        "estado" => "ok",
+        "mensaje" => "Se ejecuto la consulta con exito.",
+        "datos" => datosDeLaConsulta,
+        "consulta" => "SELECT * FROM productos"
+    ]

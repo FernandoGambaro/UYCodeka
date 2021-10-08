@@ -1,0 +1,5 @@
+db:
+  name: "freeuycodeka"
+  user: "usuariouycodeka"
+  pass: "contraseniadeusuario"
+  host: "localhost"

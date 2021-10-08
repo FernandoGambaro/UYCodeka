@@ -1,0 +1,98 @@
+@import url("pyramid.css");
+
+
+div.figure  {
+    border: 1px solid gray;
+    background-color: transparent;
+    margin: 2%; padding: 1%;
+    text-align: center;
+}
+
+.caption  {
+    margin: 0;
+    font-style: italic;
+}
+
+em.guilabel {
+    background-color: silver;
+    border: 1px solid gray;
+    padding: 0 1em;
+}
+
+img.inlinegraphic {
+    border: 1px solid silver;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+/**
+ * KEYS.css
+ *
+ * A simple stylesheet for rendering beautiful keyboard-style elements.
+ *
+ * Author:  Michael Hüneburg
+ * Website: http://michaelhue.com/keyscss
+ * License: MIT License (see LICENSE.txt)
+ */
+
+/* Base style, essential for every key. */
+kbd, .key, tt.kbd {
+	display: inline;
+	display: inline-block;
+	min-width: 1em;
+	padding: .2em .3em;
+	font: normal .85em/1 "Lucida Grande", Lucida, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	border: none;
+	cursor: default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+kbd[title], .key[title] {
+	cursor: help;
+}
+
+/* Dark style for display on light background. This is the default style. */
+kbd, kbd.dark, .dark-keys kbd, .key, .key.dark, .dark-keys .key {
+	background: rgb(80, 80, 80);
+	background: -moz-linear-gradient(top, rgb(60, 60, 60), rgb(80, 80, 80));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(60, 60, 60)), to(rgb(80, 80, 80)));
+	color: rgb(250, 250, 250);
+	text-shadow: -1px -1px 0 rgb(70, 70, 70);
+	-moz-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+}
+
+/* Light style for display on dark background. */
+kbd.light, .light-keys kbd, .key.light, .light-keys .key, tt.kbd{
+	background: rgb(250, 250, 250);
+	background: -moz-linear-gradient(top, rgb(210, 210, 210), rgb(255, 255, 255));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(210, 210, 210)), to(rgb(255, 255, 255)));
+	color:  rgb(50, 50, 50);
+	text-shadow: 0 0 2px rgb(255, 255, 255);
+	-moz-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	-webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+}
+
+.information-macro{background:#fcfcfc;border:1px solid #ccc;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;color:#333;margin:10px 0 1em 0;min-height:20px;padding:10px 10px 10px 36px;position:relative;}
+.information-macro.has-no-icon{padding-left:10px;}
+.information-macro:first-child{margin-top:0;}
+.information-macro-warning{background:#fff8f7;border-color:#d04437;}
+.information-macro-information{background-color:#fcfcfc;border-color:#aab8c6;}
+.information-macro-tip{background-color:#f3f9f4;border-color:#91c89c;}
+.information-macro-note{background:#fffdf6;border-color:#ffeaae;}
+.information-macro>.title{font-weight:bold;}
+.information-macro>.title>strong{font-weight:inherit;}
+.information-macro .information-macro-icon{display:block;left:10px;line-height:20px;position:absolute;top:12px;vertical-align:text-bottom;}
+.information-macro .information-macro-icon.aui-iconfont-info{color:#4a6785;}
+.information-macro .information-macro-icon.aui-iconfont-error{color:#cf4336;}
+.information-macro .information-macro-icon.aui-iconfont-approve{color:#14892c;}
+.information-macro .information-macro-icon.aui-iconfont-warning{color:#594300;}
+.information-macro>.information-macro-body>p:empty{display:none;}

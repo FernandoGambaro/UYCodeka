@@ -1,0 +1,3 @@
+Unable to init server: Could not connect: Connection refused
+
+(zenity:25422): Gtk-WARNING **: cannot open display: 

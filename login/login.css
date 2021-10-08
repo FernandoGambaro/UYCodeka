@@ -1,0 +1,277 @@
+* {
+margin:0;
+padding:0; }
+
+body, html {
+    height: auto !important;
+    overflow-y: auto !important;
+}
+body {
+    /*background: url("back.jpg") repeat-x scroll 0 0 ;
+    color: #000000;*/
+    font-family: helvetica,arial,helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    text-align: left;
+padding: 0;
+width: 100%;
+height: 100%;
+}
+input.action, form input[type="submit"] {
+    padding: 5px 6px;
+}
+#message {
+    background: url("information.png") no-repeat scroll 10px 50% #FFFEEB;
+    border-bottom: 1px solid #222222;
+    box-shadow: 0 0 14px #333333;
+    cursor: pointer;
+    font-size: 12px;
+    left: 0;
+    margin: 0;
+    padding: 10px 20px 10px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#message h3 {
+    margin: 0;
+    padding: 0 0 5px;
+}
+body.login div#twlogo {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 500px;
+}
+body.login div#twlogo_hasLogo {
+    height: 51px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 760px;
+}
+body.login div#acontainer {
+   /* background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 13px solid #282828;
+    border-top: 13px solid #282828;*/
+    margin: 0;
+    overflow: hidden;
+}
+body.login div#holder {
+    margin-top:5px;
+}
+
+
+body.login div#acontainer div#acontainer2_hasLogo {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 850px;
+}
+body.login div#logo {
+    float: left;
+    margin-top: -5px;
+    min-height: 100px;
+
+width:340px;
+height: 175px;
+border-style: none;
+ 
+background-repeat: no-repeat;
+background-position: left center;
+}
+
+body.login h1 {
+    color: #000000;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+body.login form {
+    float: left;
+}
+body.login ul {
+    margin: 20px 0 0;
+    padding: 0;
+}
+body.login ul li {
+    clear: both;
+    list-style: none outside none;
+    padding: 0;
+}
+body.login label {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 3px 0 0;
+    width: 120px;
+}
+body.login ul li div.rhs {
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 1px;
+    padding: 0 0 1px;
+    width: 340px;
+}
+body.login input#userLogin, body.login input#userEmail {
+    color: #335533;
+    font-weight: bold;
+    width: 210px;
+    background-color: #FFF;
+}
+body.login li#submit {
+    font-size: 12px;
+    padding: 8px 0 0 120px;
+}
+body.login input[type="text"], body.login input[type="password"] {
+    background: none repeat scroll 0 0 #FFF;
+    border: 2px solid #CCCCCC;
+    color: #111111;
+    margin-bottom: 7px;
+    padding: 5px;
+    width: 95%;
+}
+body.login input[type="text"]:focus, body.login input[type="password"]:focus {
+    background: none repeat scroll 0 0 #FFFFCC;
+    
+}
+body.login input#password {
+    width: 110px;
+}
+body.login a {
+    color: blue;
+}
+body.login a:hover {
+    color: green;
+}
+body.login li.rem {
+    padding: 2px 0 0 120px;
+}
+body.login li.rem input {
+    float: left;
+}
+body.login li.rem label {
+    color: #555555;
+    float: left;
+    font-size: 11px;
+    margin: 0;
+    padding: 2px 0 0;
+    width: auto;
+}
+
+
+
+.avisos {
+position:absolute;
+margin-top: 63px;
+margin-left: 5px;
+width: 290px;
+color: #2e2e2e;
+clear:left;
+font-family:"Georgia", "Arial", Times, serif; font-style:italic;
+font-size:14px;
+float:right;
+_margin-right:70px;
+}
+.avisos p {
+padding:2px 6px 2px 6px;
+}
+
+
+.numeros {
+position:absolute;
+font-size:11px;
+margin-top: 33px;
+margin-left: 10px;
+width:210px;
+font-weight:bold;
+} 
+
+header {
+    display: block;
+    min-width: 984px;
+    
+}
+
+header .acontainer2 {
+    height: 64px;
+    
+}
+
+header .acontainer2 a:link, .acontainer2 a:visited
+{
+color: ;
+}
+
+
+#copyright {
+    background: url("../pw/assets/img/headerTile.png") top left repeat-x;
+    border-bottom: 1px solid #151515;
+    height: 75px;
+    margin-top: 2px;
+    width: 100%;
+    padding-top: 15px;
+   bottom: 0px; 
+   position: absolute;
+}
+
+
+#copyright .acontainer2 {
+    margin: 0 auto;
+    width: 984px;
+    text-align:right;
+}
+#copyright a {
+    color: #CDA869;
+    text-decoration: none;
+}
+#copyright a:hover {
+    text-decoration: underline;
+}
+#copyright .trademarks {
+padding: 3px 0 10px 8px;
+visibility: hidden;
+word-spacing:-999px;
+letter-spacing: -999px; 
+}
+
+#copyright .trademarks:after {
+content: "\0077\0077\0077\002E\006D\0063\0063\002E\0063\006F\006D\002E\0075\0079";
+visibility: visible;
+word-spacing:normal;
+letter-spacing:normal; 
+}
+
+#copyright span {
+    padding: 0 7px;
+}
+
+
+#page {
+	position: relative;
+	left: 10px;
+	width: 100%;
+	padding: 2px;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	display: block;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}
+#page .message {
+        position:absolute;
+        left:274px;
+	border: 1px solid black;
+	background-color: #FFFFCC;
+	padding: 0px;
+        z-index:10;
+
+}

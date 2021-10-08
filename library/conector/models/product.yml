@@ -1,0 +1,6 @@
+table: "product"
+attr: 
+  - name:
+      type: "string"
+  - price:
+      type: "decimal"

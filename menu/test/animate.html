@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú UYCodeka</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../dist/metisMenu.min.css">
+  <link rel="stylesheet" href="demo.css">
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- iconos para los botones -->       
+<link rel="stylesheet" href="../../css3/css/font-awesome.min.css">
+
+
+<script>
+/* free code from dyn-web.com */
+
+function getDocHeight(doc) {
+doc = doc || document;
+// from http://stackoverflow.com/questions/1145850/get-height-of-entire-document-with-javascript
+var body = doc.body, html = doc.documentElement;
+var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+return height;
+}
+
+function setIframeHeight(id) {
+
+var ifrm = document.getElementById(id);
+var doc = ifrm.contentDocument? ifrm.contentDocument: ifrm.contentWindow.document;
+ifrm.style.visibility = 'hidden';
+ifrm.style.height = "10px"; // reset to minimal height in case going from longer to shorter doc
+ifrm.style.height = getDocHeight( doc ) + 5+"px";
+ifrm.style.visibility = 'visible';
+}
+
+</script>
+	
+	<style type="text/css">
+iframe {
+height: 100%;
+
+}
+	</style>
+
+</head>
+
+<body onload="setIframeHeight('principal');">
+
+
+  <div class="clearfix">
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <ul class="metismenu" id="menu">
+          <li class="active">
+            <a href="#" aria-expanded="true">
+            
+              <span class="sidebar-nav-item-icon fa fa-github fa-lg"></span>
+              <span class="sidebar-nav-item">Menú</span>
+              <span class="fa arrow fa-fw"></span>
+              
+            </a>
+            <ul class="collapse" aria-expanded="true">
+              <li>
+                <a href="../../central2.php" target="principal">
+						<span class="fa-stack"><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>&nbsp;Inicio</a>
+                 
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">
+            <span class="fa-stack"><i class="fa fa-book fa-2x" aria-hidden="true"></i></span>&nbsp;Documentos</a>
+            <ul style="height: 0px;" class="collapse" aria-expanded="false">
+              <li><a href="../../clientes/autofacturas/index.php" target="principal"><span class="fa-stack"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>Prog. auto facturas</a></li>
+              <li><a href="../../facturas_clientes/index.php" target="principal"><span class="fa-stack"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>Ventas</a></li>
+              <li><a href="../../cobros/index.php" target="principal"><span class="fa-stack"><i class="fa fa-money" aria-hidden="true"></i></span>Cobros rápido</a></li>
+              <li><a href="../../recibos/index.php" target="principal"><span class="fa-stack"><i class="fa fa-money" aria-hidden="true"></i></span>Cobros</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">Menu 1 <span class="glyphicon arrow"></span></a>
+            <ul class="collapse" aria-expanded="false">
+              <li><a href="#">item 1.1</a></li>
+              <li><a href="#">item 1.2</a></li>
+              <li>
+                <a href="#" aria-expanded="false">Menu 1.3 <span class="fa plus-times"></span></a>
+                <ul class="collapse" aria-expanded="false">
+                  <li><a href="#">item 1.3.1</a></li>
+                  <li><a href="#">item 1.3.2</a></li>
+                  <li><a href="#">item 1.3.3</a></li>
+                  <li><a href="#">item 1.3.4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">item 1.4</a></li>
+              <li>
+                <a href="#" aria-expanded="false">Menu 1.5 <span class="fa plus-minus"></span></a>
+                <ul class="collapse" aria-expanded="false">
+                  <li><a href="#">item 1.5.1</a></li>
+                  <li><a href="#">item 1.5.2</a></li>
+                  <li><a href="#">item 1.5.3</a></li>
+                  <li><a href="#">item 1.5.4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" aria-expanded="false">Menu 2 <span class="glyphicon arrow"></span></a>
+            <ul class="collapse" aria-expanded="false">
+              <li><a href="#">item 2.1</a></li>
+              <li><a href="#">item 2.2</a></li>
+              <li><a href="#">item 2.3</a></li>
+              <li><a href="#">item 2.4</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <section class="content" style="height:100%;">
+    
+    
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Code
+          </div>
+        </div>
+<iframe src="../../central2.php" name="principal" id="principal" title="principal" frameborder="0" width="100%" height="100%" marginheight="0" marginwidth="0" 
+scrolling="yes" align="center" allowtransparency="true"></iframe>	
+      </div>
+
+
+
+    </section>
+    
+  </div>
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="../dist/metisMenu.min.js"></script>
+
+  <script>
+    $(function() {
+      $('#menu').metisMenu();
+    });
+  </script>
+</body>
+</html>

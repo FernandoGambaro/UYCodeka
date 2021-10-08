@@ -1,0 +1,7 @@
+ @font-face {  
+
+   font-family: "GillSans";  
+
+   src: local("GillSans"), url("../../../mpdf60/ttfonts/gillsan.ttf") format("truetype"); /*non-IE*/  
+
+}

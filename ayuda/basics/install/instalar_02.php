@@ -1,0 +1,369 @@
+<?php
+/**
+ * UYCODEKA
+ * Copyright (C) MCC (http://www.mcc.com.uy)
+ *
+ * Este programa es software libre: usted puede redistribuirlo y/o
+ * modificarlo bajo los términos de la Licencia Pública General Affero de GNU
+ * publicada por la Fundación para el Software Libre, ya sea la versión
+ * 3 de la Licencia, o (a su elección) cualquier versión posterior de la
+ * misma.
+ *
+ * Este programa se distribuye con la esperanza de que sea útil, pero
+ * SIN GARANTÍA ALGUNA; ni siquiera la garantía implícita
+ * MERCANTIL o de APTITUD PARA UN PROPÓSITO DETERMINADO.
+ * Consulte los detalles de la Licencia Pública General Affero de GNU para
+ * obtener una información más detallada.
+ *
+ * Debería haber recibido una copia de la Licencia Pública General Affero de GNU
+ * junto a este programa.
+ * En caso contrario, consulte <http://www.gnu.org/licenses/agpl.php>.
+ */
+ /*La estructura de l array es: pagina anterioer, pagina sigiente*/
+$pagina=array(0=>'instalar_01.php',1=>'instalar_03.php' );
+/*La estructura de l array es: titulo pagina anterioer, titulo pagina sigiente*/
+$titulo=array( 0=>'0.1. Preparar entorno local Linux', 1=>'0.3. Instalar UYCODEKA');
+
+/*Puede haber varias secciones en la ayuda y para cada una sus partes partes
+0=> Titulo de la sección
+1=> Sub titulo
+2=> Imagen a mostrar
+3=> Sub titulo imagen
+4=> Descripción
+5=> Notas u observaciones 
+
+*/
+$seccion=array( 0=> array(0=>'0.2. Prepara entorno local Windows.',
+													      1=>'',
+													      2=>'',
+													      3=>'',
+													      4=>'
+													      <p>Para preparar el entorno local Windows hay en Internet muchos manuales, hemos seleccionado 
+													      un vídeo tutorial que lo explica facilmente y un pequeño instructivo de como realizarlo.</p>
+
+<a href="https://www.youtube.com/watch?v=2cBE_7sRTmk">Vídeo tutorial - WampServer 3, Instalación y Configuración 2016</a>													      
+
+<p style="text-align: justify;">
+<strong>WampServer</strong> son la iníciales de Windows <strong>Apache, MySQL y PHP</strong> más <em>Server</em> (Servidor), 
+por lo tanto <strong>WampServer 3 incluye en el instalador</strong> estas tres herramientas. 
+La instalación de WampServer 3 es más sencilla que descargar cada una de las herramientas por separado e instalarlas una por una.</p>
+
+<p style="text-align: justify;">Las herramientas incluidas en <strong>WampServer 3</strong> son:.</p>
+<ul>
+<li>Apache : 2.4.18</li>
+<li>MySQL : 5.7.11</li>
+<li>PHP : 5.6.19 y 7.0.4</li>
+<li>PHPMyAdmin : 4.5.5.1</li>
+<li>Adminer : 4.2.4</li>
+<li>phpSysInfo : 3.2.5&nbsp; &nbsp;</li>
+</ul>
+
+<p style="text-align: justify;">A lo largo de esta guía vera como el panel de administración de <strong>WampServer 3</strong>
+ le permite administrar algunas de estas herramientas incluidas en el paquete, parar o arrancar los servicios de 
+ <strong>MySQL</strong>, <strong>Apache</strong>, visualizar los ficheros de log, etc.</p>
+
+<p style="text-align: justify;">WampServer 3 se puede instalar en
+ Windows XP, Windows Vista, Windows 7, Windows 8.x, Windows 10, Windows 2003, Windows 2008 y Windows Server 2012.
+  Los requerimientos de espacio en disco para la instalación son de unos 2 GB como mínimo.
+   <strong>WampServer 3 está disponible para sistemas Windows de 32 bits y 64 bits</strong>.</p>
+
+  ',
+													      5=>'',
+													      ),	
+							1=> array(0=>'0.2.1. Instalación del paquete WampServer en Windows 10.',
+													      1=>'No hay ninguna diferencia en el proceso de instalación entre las versiones de 
+<strong>WampServer 3 de 32 bits y 64 bits</strong>, el proceso es exactamente igual.',
+													      2=>'',
+													      3=>'',
+													      4=>'	
+
+<p style="text-align: justify;">Una vez descargado WampServer, doble clic el archivo *.exe resultado descargado.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer01.png" alt="Como instalar Wampserver 3 Paso 1" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">El instalador de Wampserver dispone de dos lenguajes para el proceso, 
+inglés o francés,&nbsp; está selección es solo para la instalación ya que para el menú y opciones de administración está 
+disponible en español. Seleccione el idioma que le quede más cómodo, luego clic sobre el botón  “<em>OK</em>”.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer02.png" alt="Como instalar Wampserver 3 Paso 2" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;"><span><strong>License Agreement</strong></span>. Antes de continuar lea los términos de la licencia de uso y si estás de acuerdo selecciona 
+“<em>I Accept the agreement</em>” y haz clic sobre el botón “<em>Next</em>”.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer03.png" alt="Como instalar Wampserver 3 Paso 3" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Information. Antes de que inicie la instalación debe asegurarte que tiene instalado 
+<strong>Microsoft Visual C++ redistributable packages</strong>, VC9, VC10, VC11, VC13 y VC14, en el 
+<em>Panel de control -&gt; Programas y características</em> para Windows 8.x o anteriores o 
+en <em>Configuración -&gt; Sistema -&gt; Aplicaciones y características</em> 
+para Windows 10, podrá comprobar si tiene instalados los paquetes de Visual C++, 
+en el artículo siguiente tienes <span>la descarga</span> de todos ellos.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer04.png" alt="Como instalar Wampserver 3 Paso 4"
+ style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;"><span><strong>Select Destination Location (Seleccionar ubicación de destino)</strong></span>. 
+El instalador de WampServer le muestra por defecto la carpeta <em>C:\wamp</em> o <em>C:\wamp64</em> 
+dependiendo si su Windows es de 32 bits o 64 bits respectivamente y la unidad C:, 
+puede cambiar la ubicación pero tenga en cuenta lo siguiente, puede utilizar cualquier unidad disponible en su PC, 
+el nombre del directorio no debe contener ni espacios ni caracteres especiales, 
+ para evitar errores y problemas futuros el directorio debe ser creado en el directorio raíz de la unidad seleccionada.</p>
+
+<p style="text-align: justify;">Clic en el botón “<em>Next</em>” para continuar.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer05.png" alt="Como instalar Wampserver 3 Paso 5" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;"><strong><span>Select Start Menu Folfer (Seleccionar carpeta de menú Inicio)</span></strong>. 
+El <span>programa</span> de instalación creará los accesos directos del programa necesarios en la siguiente carpeta 
+del menú Inicio por defecto, Wampserver o Wampserver64, para continuar, clic en el botón “<em>Next</em>”. 
+Si desea seleccionar una carpeta diferente a la mostrada por defecto, clic en el botón “<em>Browse</em>”.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer06.png" alt="Como instalar Wampserver 3 Paso 6" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p style="text-align: justify;"><span><strong>Ready to Install</strong></span>. El programa de instalación está preparado 
+para iniciar la instalación, en el cuadro de texto podrá ver un resumen de las opciones de instalación. 
+Si todo está correcto, clic sobre el botón “<em>Install</em>” para iniciar la instalación, 
+si quiere modificar alguno de los valores, clic en el botón “<em>&lt; Back</em>”.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer07.png" alt="Como instalar Wampserver 3 Paso 7" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+<p style="text-align: justify;">Proceso de intalación</p>
+<p style="text-align: center;"><img src="../../_images/srcWampServer08.png" alt="Como instalar Wampserver 3 Paso 8" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Durante el proceso de instalación se abrirá una ventana que le informa que 
+<strong>Wampserver</strong> usará <strong>el navegador <span>Internet</span> Explorer</strong> (iexplorer.exe) por defecto, 
+en caso de querer usar otro navegador, clic sobre el botón “<em>Sí</em>”, caso contrario, clic sobre “<em>No</em>”.</p>
+<p style="text-align: center;"><img src="../../_images/srcWampServer09.png" alt="Como instalar Wampserver 3 Paso 9" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Notepad (<em>notepad.exe</em>) será el editor de texto por defecto, en caso de quere usar otro Editor, 
+clic sobre el botón “<em>Sí</em>”, para mantener el Notepad clic sobre “<em>No</em>” .</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer010.png" alt="Como instalar Wampserver 3 Paso 10" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;"><span><strong>Information</strong></span>. En esta ventana el instalador muestra información 
+importante sobre <strong>phpMyAdmin</strong>, el usuario que deberá utilizar cuando inicie <strong>phpMyAdmin</strong>
+ en <em>root</em> y sin password.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer011.png" alt="Como instalar Wampserver 3 Paso 11" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;"><span><strong>Fin de la instalación.</strong></span> Una vez terminado el proceso 
+Wampserver estará instaldo en su PC. Clic sobre el botón “<em>Finish</em>” para finalizar.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer012.png" alt="Como instalar Wampserver 3 Paso 12" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Para iniciar Wampserver, buscar en el escritorio de Windows el icono de Wampserver, 
+clic botón derecho sobre él y en la ventana que aparece seleccionar “<em>Ejecutar como administrador</em>”. 
+ Una vez todos los servicios hayan iniciado tendrá en color verde el icono de Wampserver en la barra de notificaciones, 
+ parte inferior derecha.</p>
+
+  ',
+													      5=>'',
+													      ),	
+							2=> array(0=>'0.2.2. Acceder al menú de Administración.',
+													      1=>'<span><strong>Acceder al menú de Administración.</strong></span> 
+Para acceder al menú de administración simplemente colocar el puntero del mouse sobre el icono en la 
+barra de notificaciones y clic sobre el botón izquierdo.',
+													      2=>'',
+													      3=>'',
+													      4=>'	
+<p style="text-align: center;"><img src="../../_images/srcWampServer013.png" alt="Como instalar Wampserver 3 Paso 13" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Antes de dar por terminada la instalación realizar el siguiente test, en el menú de administración, 
+seleccionar “<em>Localhost</em>”, es la primera opción, esto abrirá el navegador y mostrará una página 
+con información sobre las versiones de Apache,&nbsp; PHP y MySQL, extensiones cargadas, también en la parte inferior 
+podrá encontrar enlaces a phpinfo, phpMyadmin así como diversos alias.</p>
+
+  ',
+													      5=>'',
+													      ),	
+							3=> array(0=>'0.2.3. Menú de configuración de Wampserser.',
+													      1=>'Para acceder a este menú coloca el puntero del mouse sobre el icono en la barra de notificaciones y clic 
+sobre el botón derecho, aparecerá el siguiente menú contextual.',
+													      2=>'',
+													      3=>'',
+													      4=>'	
+													      <p style="text-align: center;"><img src="../../_images/srcWampServer014.png" alt="Como instalar Wampserver 3 Paso 14" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">El menú tiene tres opciones importantes, <strong>Idioma, Wamp Settings y Tools</strong>. 
+En la opción <strong>Idioma</strong> podrá cambiar el idioma de la interface a multitud de idiomas incluido el español, 
+<strong>Wamp Settings</strong> le permite incluir más opciones en el menú de administración, como por ejemplo, 
+VistualHost sub-menu, Projects sub-menu, etc. Por último la opción <strong>Tools</strong> incluye opciones con 
+las podrá realizar pruebas de puertos o vaciar los archivos de log de PHP, Apache, etc.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer015.png" alt="Como instalar Wampserver 3 Paso 15" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+
+<p style="text-align: justify;">Por último recordar que cuando inicie <strong>phpMyadmin</strong> el usuario 
+es root y sin contraseña.</p>
+
+<p style="text-align: center;"><img src="../../_images/srcWampServer016.png" alt="Como instalar Wampserver 3 Paso 16" 
+style="display: block; margin-left: auto; margin-right: auto;"></p>
+										      
+													      ',
+													      5=>'',
+													      ),
+												      
+);
+
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. Partes de la pantallas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1.9.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.php',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.php" />
+    
+    <link rel="up" title="3. Búsquedas" href="<?php echo $pagina[0];?>" />
+    <link rel="next" title="2. Realizar una búsqueda" href="<?php echo $pagina[1];?>" />
+    <link rel="prev" title="3. Búsquedas" href="<?php echo $pagina[0];?>" />
+    
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.php">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../index.php" title="Índice General" accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="<?php echo $pagina[1];?>" title="<?php echo $titulo[1];?>" accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="<?php echo $pagina[0];?>" title="<?php echo $titulo[0];?>" accesskey="P">anterior</a> |</li>
+<li><a href="../../index.php">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="<?php echo $pagina[0];?>" accesskey="U"><?php echo $titulo[0];?></a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+       <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+<?php 
+foreach($seccion as  $key=>$value) {
+?>            
+  <div class="section" id="index-<?php echo $key;?>">
+  <!-- Titulo  págiona-->
+  <?php if($seccion[$key][0]!='') { ?>
+<h1><?php echo $seccion[$key][0];?><a class="headerlink" href="<?php echo "#".$key;?>" title="Enlazar permanentemente con este título">¶</a></h1>
+<?php } 
+if($seccion[$key][0]!='') { 
+?>
+<span class="target" ></span><p><?php echo $seccion[$key][1];?></p>
+<?php
+if(count($seccion)>1 and $key==0) {
+?>
+		<div class="toctree-wrapper compound">
+<ul>
+<?php
+	foreach($seccion as  $keyy=>$valor) {
+		if($keyy>=1) {
+	?>
+	<li class="toctree-l1"><a class="reference internal" href="<?php echo "#index-".$keyy;?>"><?php echo $seccion[$keyy][0];?></a></li>
+	<?php
+		}
+	}
+	?>
+</ul>
+</div>
+	<?php
+}	
+?>
+<?php } if($seccion[$key][2]!='') { ?>
+<div class="figure">
+<img alt="<?php echo $seccion[$key][2];?>" src="<?php echo $seccion[$key][2];?>" />
+<p class="caption"><?php echo $seccion[$key][3];?></p>
+</div>
+<?php } ?>
+<?php echo $seccion[$key][4];?>
+<p>
+<?php if($seccion[$key][5]!='') {   
+echo $seccion[$key][5];
+ } 
+ ?>
+</div>
+<?php
+		if($key>=1) {  
+		?>
+<div  style="text-align: right;">
+<a class="reference internal" href="#index-0">Arriba</a>
+</div>
+<?php
+
+		}
+ } ?>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="<?php echo $pagina[0];?>"  title="Capítulo anterior"><?php echo $titulo[0];?></a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="<?php echo $pagina[1];?>"  title="Próximo capítulo"><?php echo $titulo[1];?></a></p>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../index.php" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="<?php echo $pagina[1];?>" title="<?php echo $titulo[1];?>">siguiente</a> |</li>
+        <li class="right" >
+          <a href="<?php echo $pagina[0];?>" title="<?php echo $titulo[0];?>" >anterior</a> |</li>
+<li><a href="../../index.php">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="<?php echo $pagina[0];?>" ><?php echo $titulo[0];?></a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">&copy; Copyright 2017, UYCODEKA </div>
+  </body>
+</html>

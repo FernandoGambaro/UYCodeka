@@ -1,0 +1,2946 @@
+<head>
+<title>Sample website</title>
+  
+  
+<link href="application.css" media="all" rel="stylesheet">
+<link href="application2.css" media="all" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+  MyAssets = {};
+  MyAssets['gradient_from_top'] = 'gradient-from-top.png';
+  MyAssets['gradient_from_bottom'] = 'gradient-from-bottom.png';
+</script>
+
+  
+
+  <script debug="false" src="common.js"></script>
+  <script debug="false" src="application.js"></script><style type="text/css">
+  @charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+  <script debug="false" src="ckeditor/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+<meta content="authenticity_token" name="csrf-param">
+
+
+  
+  
+<link href="proposal-responsive.css" media="all" rel="stylesheet">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css" id="dynamic_style">
+</style>
+
+<script type="text/javascript">
+  
+if(typeof($.formatCurrency) === 'undefined'){
+  $.formatCurrency = {};
+}
+if(typeof($.formatCurrency.regions) === 'undefined'){
+  $.formatCurrency.regions = {};
+}
+if(typeof($.formatCurrency.regions['']) === 'undefined'){
+  $.formatCurrency.regions[''] = {};
+}
+
+$.formatCurrency.regions['']['symbol'] = '$';
+$.formatCurrency.regions['']['decimalSymbol'] = '.';
+$.formatCurrency.regions['']['digitGroupSymbol'] = ',';
+
+
+  $(function(){
+    $('.item-quantity').spinner({min: 1, step: 1, stop: function(event,ui){
+      $(this).trigger('input');
+    }});
+
+    if($('.payment-price-table input[name="payment_option"]:checked').length == 0){
+      $('.payment-price-table input[name="payment_option"]').first().attr('checked', true);
+    }
+  })
+</script>
+
+<style type="text/css" id="custom_style">
+.proposal-area.ui-sortable-helper div,
+.proposal-area.ui-sortable-helper p,
+.proposal-area.ui-sortable-helper table,
+.proposal-area.ui-sortable-helper span,
+.proposal-area.ui-sortable-helper ul,
+.proposal-area.ui-sortable-helper ol,
+.proposal-preview-container .tab-content div,
+.proposal-preview-container .tab-content p,
+.proposal-preview-container .tab-content table,
+.proposal-preview-container .tab-content span,
+.proposal-preview-container .tab-content ul,
+.proposal-preview-container .tab-content ol
+{
+  font-size: 10pt;
+  color: #000000;
+  
+}
+
+.proposal-preview-container .tab-content .section-heading,
+.proposal-preview-container .tab-content h1{
+  font-size: 24pt;
+  color: #297021;
+  font-family: Ropa Sans;
+}
+
+.proposal-area.ui-sortable-helper .area-heading,
+.proposal-area.ui-sortable-helper h2,
+.proposal-preview-container .tab-content .area-heading,
+.proposal-preview-container .tab-content h2{
+  font-size: 15pt;
+  color: #292b29;
+  font-family: Ropa Sans;
+}
+
+.proposal-preview-container .tab-content h3 span,
+.proposal-preview-container .tab-content h3,
+.proposal-preview-container .tab-content h5{
+  color: #297021;
+}
+
+.proposal-preview-container .tab-content h4,
+.proposal-preview-container .tab-content h6{
+    color: #292b29;
+}
+
+.proposal-preview-container .cover-page .proposal-name{
+  font-size: 33pt;
+  line-height: 33pt;
+  color: #297021;
+  font-family: Ropa Sans;
+}
+
+.proposal-preview-container .cover-page .proposal-code,
+.proposal-preview-container .cover-page .proposal-code span{
+  color: #297021;
+}
+
+.proposal-preview-container .cover-page .proposal-info,
+.proposal-preview-container .cover-page .proposal-info *{
+  font-size: 10pt;
+  color: #3b3c3b;
+  font-family: Ropa Sans;
+}
+
+.proposal-preview-container .price-table .description-body{
+  font-size: 10pt !important;
+}
+
+.proposal-html .proposal-content > .tab-content
+{
+  width: 210mm;
+  
+  width: 215.9mm;
+  width: 8.5in;
+  
+}
+
+.pdf-html, .pdf-container .tab-pane, .pdf-html .tab-content, .pdf-html .row-fluid, .pdf-html .container, .pdf-html body{
+  width: 210mm;
+  
+  width: 215.9mm;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.pdf-container .tab-pane{
+  background-image: url('content_theme-4.png');
+  /*background-repeat: no-repeat;*/
+  background-repeat: repeat-y;
+
+  /*height: 297mm;*/
+  min-height: 297mm;
+  
+  min-height: 279.4mm;
+  
+
+  /* letter 215.9 mm × 279.4 mm */
+
+  display: inline-block;
+
+  background-size: 210mm 297mm;
+  
+  background-size: 215.9mm 279.4mm;
+  
+}
+
+.pdf-container .tab-pane.cover-page{
+  background-image: url('content_theme-4-cover.png');
+}
+
+.proposal-preview-container .proposal-html .tab-content .inner-slide{
+  background-repeat: no-repeat;
+
+  width: 210mm;
+  background-size: 210mm 8.5cm, 210mm 297mm;
+  
+  width: 8.5in;
+  background-size: 8.5in 3.5in, 8.5in 11in;
+  
+
+  
+
+  height: 100%;
+  position: relative;
+  z-index: 1;
+
+  background-image: url("gradient-from-bottom.png"), url("content_theme-4.png");
+  background-position: center 8in, center top;
+}
+
+.proposal-pageless .proposal-html .proposal-content.scrollable-layout > .tab-content > .tab-pane.first-section .inner-slide,
+.proposal-preview-container .proposal-html .tab-content .cover-page .inner-slide{
+  background-image: url("gradient-from-bottom.png"), url("content_theme-4-cover.png");
+}
+
+.proposal-pageless .proposal-html .proposal-content.scrollable-layout > .tab-content > .tab-pane.last-section .inner-slide:before,
+.proposal-preview-container .proposal-html .tab-content .inner-slide:before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  bottom:0px;
+  right:0px;
+  height: 8.5cm;
+
+  width: 210mm;
+  background-size: 26cm 3cm, 210mm 297mm;
+  
+  
+  width: 8.5in;
+  background-size: 26cm 3cm, 8.5in 11in;
+  
+
+  
+
+  background-image: url("gradient-from-top.png"), url("content_theme-4.png");
+  background-position: center 0cm, center bottom;
+  background-repeat: no-repeat;
+}
+
+.proposal-pageless .proposal-html .proposal-content.scrollable-layout > .tab-content > .tab-pane.first-section:not(.last-section) .inner-slide:before{
+  background-size: 26cm 6cm;
+  background-position: center bottom;
+  background-image: url("gradient-from-bottom.png");
+}
+
+.proposal-preview-container .proposal-html .tab-content .cover-page .inner-slide:before{
+  background-image: url("gradient-from-top.png"), url("content_theme-4-cover.png");
+}
+
+.proposal-preview-container .proposal-html .tab-content .inner-slide:after{
+  content:"";
+  position:absolute;
+  z-index:-2;
+  bottom:0px;
+  right:0px;
+  width: 210mm;
+  
+  width: 215.9mm;
+  width: 8.5in;
+  
+  height: 10cm;
+
+  background-size: 26cm 5.5cm;
+  background-repeat: no-repeat;
+}
+
+.proposal-pageless .proposal-html .proposal-content.scrollable-layout > .tab-content > .tab-pane.first-section.last-section .inner-slide:after,
+.proposal-preview-container .proposal-html .tab-content .inner-slide:after{
+  background-image: url("gradient-from-bottom.png");  
+}
+
+
+
+
+.proposal-preview-container .tab-content p{
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.proposal-preview .company-logo{
+  display: none;
+}
+
+
+
+</style><style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+/** reset styling **/
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+style.firebugResetStyles {
+    display: none !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before, .firebugResetStyles:after {
+    content: "" !important;
+}
+/**actual styling to be modified by firebug theme**/
+.firebugCanvas {
+    display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft, .firebugLayoutLineRight {
+    width: 1px !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop, .firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px !important;
+    border-top: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px !important;
+    border-left: 1px solid #999999 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBoxParent {
+    border-top: 0 none !important;
+    border-right: 1px dashed #E00 !important;
+    border-bottom: 1px dashed #E00 !important;
+    border-left: 0 none !important;
+    position: fixed !important;
+    width: auto !important;
+}
+
+.firebugRuler{
+    position: absolute !important;
+}
+
+.firebugRulerH {
+    top: -15px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 14px !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%13%88%00%00%00%0E%08%02%00%00%00L%25a%0A%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%04%F8IDATx%DA%EC%DD%D1n%E2%3A%00E%D1%80%F8%FF%EF%E2%AF2%95%D0D4%0E%C1%14%B0%8Fa-%E9%3E%CC%9C%87n%B9%81%A6W0%1C%A6i%9A%E7y%0As8%1CT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AATE9%FE%FCw%3E%9F%AF%2B%2F%BA%97%FDT%1D~K(%5C%9D%D5%EA%1B%5C%86%B5%A9%BDU%B5y%80%ED%AB*%03%FAV9%AB%E1%CEj%E7%82%EF%FB%18%BC%AEJ8%AB%FA'%D2%BEU9%D7U%ECc0%E1%A2r%5DynwVi%CFW%7F%BB%17%7Dy%EACU%CD%0E%F0%FA%3BX%FEbV%FEM%9B%2B%AD%BE%AA%E5%95v%AB%AA%E3E5%DCu%15rV9%07%B5%7F%B5w%FCm%BA%BE%AA%FBY%3D%14%F0%EE%C7%60%0EU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5JU%88%D3%F5%1F%AE%DF%3B%1B%F2%3E%DAUCNa%F92%D02%AC%7Dm%F9%3A%D4%F2%8B6%AE*%BF%5C%C2Ym~9g5%D0Y%95%17%7C%C8c%B0%7C%18%26%9CU%CD%13i%F7%AA%90%B3Z%7D%95%B4%C7%60%E6E%B5%BC%05%B4%FBY%95U%9E%DB%FD%1C%FC%E0%9F%83%7F%BE%17%7DkjMU%E3%03%AC%7CWj%DF%83%9An%BCG%AE%F1%95%96yQ%0Dq%5Dy%00%3Et%B5'%FC6%5DS%95pV%95%01%81%FF'%07%00%00%00%00%00%00%00%00%00%F8x%C7%F0%BE%9COp%5D%C9%7C%AD%E7%E6%EBV%FB%1E%E0(%07%E5%AC%C6%3A%ABi%9C%8F%C6%0E9%AB%C0'%D2%8E%9F%F99%D0E%B5%99%14%F5%0D%CD%7F%24%C6%DEH%B8%E9rV%DFs%DB%D0%F7%00k%FE%1D%84%84%83J%B8%E3%BA%FB%EF%20%84%1C%D7%AD%B0%8E%D7U%C8Y%05%1E%D4t%EF%AD%95Q%BF8w%BF%E9%0A%BF%EB%03%00%00%00%00%00%00%00%00%00%B8vJ%8E%BB%F5%B1u%8Cx%80%E1o%5E%CA9%AB%CB%CB%8E%03%DF%1D%B7T%25%9C%D5(%EFJM8%AB%CC'%D2%B2*%A4s%E7c6%FB%3E%FA%A2%1E%80~%0E%3E%DA%10x%5D%95Uig%15u%15%ED%7C%14%B6%87%A1%3B%FCo8%A8%D8o%D3%ADO%01%EDx%83%1A~%1B%9FpP%A3%DC%C6'%9C%95gK%00%00%00%00%00%00%00%00%00%20%D9%C9%11%D0%C0%40%AF%3F%EE%EE%92%94%D6%16X%B5%BCMH%15%2F%BF%D4%A7%C87%F1%8E%F2%81%AE%AAvzr%DA2%ABV%17%7C%E63%83%E7I%DC%C6%0Bs%1B%EF6%1E%00%00%00%00%00%00%00%00%00%80cr%9CW%FF%7F%C6%01%0E%F1%CE%A5%84%B3%CA%BC%E0%CB%AA%84%CE%F9%BF)%EC%13%08WU%AE%AB%B1%AE%2BO%EC%8E%CBYe%FE%8CN%ABr%5Dy%60~%CFA%0D%F4%AE%D4%BE%C75%CA%EDVB%EA(%B7%F1%09g%E5%D9%12%00%00%00%00%00%00%00%00%00H%F6%EB%13S%E7y%5E%5E%FB%98%F0%22%D1%B2'%A7%F0%92%B1%BC%24z3%AC%7Dm%60%D5%92%B4%7CEUO%5E%F0%AA*%3BU%B9%AE%3E%A0j%94%07%A0%C7%A0%AB%FD%B5%3F%A0%F7%03T%3Dy%D7%F7%D6%D4%C0%AAU%D2%E6%DFt%3F%A8%CC%AA%F2%86%B9%D7%F5%1F%18%E6%01%F8%CC%D5%9E%F0%F3z%88%AA%90%EF%20%00%00%00%00%00%00%00%00%00%C0%A6%D3%EA%CFi%AFb%2C%7BB%0A%2B%C3%1A%D7%06V%D5%07%A8r%5D%3D%D9%A6%CAu%F5%25%CF%A2%99%97zNX%60%95%AB%5DUZ%D5%FBR%03%AB%1C%D4k%9F%3F%BB%5C%FF%81a%AE%AB'%7F%F3%EA%FE%F3z%94%AA%D8%DF%5B%01%00%00%00%00%00%00%00%00%00%8E%FB%F3%F2%B1%1B%8DWU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*UiU%C7%BBe%E7%F3%B9%CB%AAJ%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5*%AAj%FD%C6%D4%5Eo%90%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5%86%AF%1B%9F%98%DA%EBm%BBV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%AD%D6%E4%F58%01%00%00%00%00%00%00%00%00%00%00%00%00%00%40%85%7F%02%0C%008%C2%D0H%16j%8FX%00%00%00%00IEND%AEB%60%82") repeat-x !important;
+    border-top: 1px solid #BBBBBB !important;
+    border-right: 1px dashed #BBBBBB !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.firebugRulerV {
+    top: 0 !important;
+    left: -15px !important;
+    width: 14px !important;
+    height: 100% !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%0E%00%00%13%88%08%02%00%00%00%0E%F5%CB%10%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%06~IDATx%DA%EC%DD%D1v%A20%14%40Qt%F1%FF%FF%E4%97%D9%07%3BT%19%92%DC%40(%90%EEy%9A5%CB%B6%E8%F6%9Ac%A4%CC0%84%FF%DC%9E%CF%E7%E3%F1%88%DE4%F8%5D%C7%9F%2F%BA%DD%5E%7FI%7D%F18%DDn%BA%C5%FB%DF%97%BFk%F2%10%FF%FD%B4%F2M%A7%FB%FD%FD%B3%22%07p%8F%3F%AE%E3%F4S%8A%8F%40%EEq%9D%BE8D%F0%0EY%A1Uq%B7%EA%1F%81%88V%E8X%3F%B4%CEy%B7h%D1%A2E%EBohU%FC%D9%AF2fO%8BBeD%BE%F7X%0C%97%A4%D6b7%2Ck%A5%12%E3%9B%60v%B7r%C7%1AI%8C%BD%2B%23r%00c0%B2v%9B%AD%CA%26%0C%1Ek%05A%FD%93%D0%2B%A1u%8B%16-%95q%5Ce%DCSO%8E%E4M%23%8B%F7%C2%FE%40%BB%BD%8C%FC%8A%B5V%EBu%40%F9%3B%A72%FA%AE%8C%D4%01%CC%B5%DA%13%9CB%AB%E2I%18%24%B0n%A9%0CZ*Ce%9C%A22%8E%D8NJ%1E%EB%FF%8F%AE%CAP%19*%C3%BAEKe%AC%D1%AAX%8C*%DEH%8F%C5W%A1e%AD%D4%B7%5C%5B%19%C5%DB%0D%EF%9F%19%1D%7B%5E%86%BD%0C%95%A12%AC%5B*%83%96%CAP%19%F62T%86%CAP%19*%83%96%CA%B8Xe%BC%FE)T%19%A1%17xg%7F%DA%CBP%19*%C3%BA%A52T%86%CAP%19%F62T%86%CA%B0n%A9%0CZ%1DV%C6%3D%F3%FCH%DE%B4%B8~%7F%5CZc%F1%D6%1F%AF%84%F9%0F6%E6%EBVt9%0E~%BEr%AF%23%B0%97%A12T%86%CAP%19%B4T%86%CA%B8Re%D8%CBP%19*%C3%BA%A52huX%19%AE%CA%E5%BC%0C%7B%19*CeX%B7h%A9%0C%95%E1%BC%0C%7B%19*CeX%B7T%06%AD%CB%5E%95%2B%BF.%8F%C5%97%D5%E4%7B%EE%82%D6%FB%CF-%9C%FD%B9%CF%3By%7B%19%F62T%86%CA%B0n%D1R%19*%A3%D3%CA%B0%97%A12T%86uKe%D0%EA%B02*%3F1%99%5DB%2B%A4%B5%F8%3A%7C%BA%2B%8Co%7D%5C%EDe%A8%0C%95a%DDR%19%B4T%C66%82fA%B2%ED%DA%9FC%FC%17GZ%06%C9%E1%B3%E5%2C%1A%9FoiB%EB%96%CA%A0%D5qe4%7B%7D%FD%85%F7%5B%ED_%E0s%07%F0k%951%ECr%0D%B5C%D7-g%D1%A8%0C%EB%96%CA%A0%A52T%C6)*%C3%5E%86%CAP%19%D6-%95A%EB*%95q%F8%BB%E3%F9%AB%F6%E21%ACZ%B7%22%B7%9B%3F%02%85%CB%A2%5B%B7%BA%5E%B7%9C%97%E1%BC%0C%EB%16-%95%A12z%AC%0C%BFc%A22T%86uKe%D0%EA%B02V%DD%AD%8A%2B%8CWhe%5E%AF%CF%F5%3B%26%CE%CBh%5C%19%CE%CB%B0%F3%A4%095%A1%CAP%19*Ce%A8%0C%3BO*Ce%A8%0C%95%A12%3A%AD%8C%0A%82%7B%F0v%1F%2FD%A9%5B%9F%EE%EA%26%AF%03%CA%DF9%7B%19*Ce%A8%0C%95%A12T%86%CA%B8Ze%D8%CBP%19*Ce%A8%0C%95%D1ae%EC%F7%89I%E1%B4%D7M%D7P%8BjU%5C%BB%3E%F2%20%D8%CBP%19*Ce%A8%0C%95%A12T%C6%D5*%C3%5E%86%CAP%19*Ce%B4O%07%7B%F0W%7Bw%1C%7C%1A%8C%B3%3B%D1%EE%AA%5C%D6-%EBV%83%80%5E%D0%CA%10%5CU%2BD%E07YU%86%CAP%19*%E3%9A%95%91%D9%A0%C8%AD%5B%EDv%9E%82%FFKOee%E4%8FUe%A8%0C%95%A12T%C6%1F%A9%8C%C8%3D%5B%A5%15%FD%14%22r%E7B%9F%17l%F8%BF%ED%EAf%2B%7F%CF%ECe%D8%CBP%19*Ce%A8%0C%95%E1%93~%7B%19%F62T%86%CAP%19*Ce%A8%0C%E7%13%DA%CBP%19*Ce%A8%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4%AE%A4%F5%25%C0%00%DE%BF%5C'%0F%DA%B8q%00%00%00%00IEND%AEB%60%82") repeat-y !important;
+    border-left: 1px solid #BBBBBB !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px dashed #BBBBBB !important;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
+</style><style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+/** reset styling **/
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+style.firebugResetStyles {
+    display: none !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before, .firebugResetStyles:after {
+    content: "" !important;
+}
+/**actual styling to be modified by firebug theme**/
+.firebugCanvas {
+    display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft, .firebugLayoutLineRight {
+    width: 1px !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop, .firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px !important;
+    border-top: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px !important;
+    border-left: 1px solid #999999 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBoxParent {
+    border-top: 0 none !important;
+    border-right: 1px dashed #E00 !important;
+    border-bottom: 1px dashed #E00 !important;
+    border-left: 0 none !important;
+    position: fixed !important;
+    width: auto !important;
+}
+
+.firebugRuler{
+    position: absolute !important;
+}
+
+.firebugRulerH {
+    top: -15px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 14px !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%13%88%00%00%00%0E%08%02%00%00%00L%25a%0A%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%04%F8IDATx%DA%EC%DD%D1n%E2%3A%00E%D1%80%F8%FF%EF%E2%AF2%95%D0D4%0E%C1%14%B0%8Fa-%E9%3E%CC%9C%87n%B9%81%A6W0%1C%A6i%9A%E7y%0As8%1CT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AATE9%FE%FCw%3E%9F%AF%2B%2F%BA%97%FDT%1D~K(%5C%9D%D5%EA%1B%5C%86%B5%A9%BDU%B5y%80%ED%AB*%03%FAV9%AB%E1%CEj%E7%82%EF%FB%18%BC%AEJ8%AB%FA'%D2%BEU9%D7U%ECc0%E1%A2r%5DynwVi%CFW%7F%BB%17%7Dy%EACU%CD%0E%F0%FA%3BX%FEbV%FEM%9B%2B%AD%BE%AA%E5%95v%AB%AA%E3E5%DCu%15rV9%07%B5%7F%B5w%FCm%BA%BE%AA%FBY%3D%14%F0%EE%C7%60%0EU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5JU%88%D3%F5%1F%AE%DF%3B%1B%F2%3E%DAUCNa%F92%D02%AC%7Dm%F9%3A%D4%F2%8B6%AE*%BF%5C%C2Ym~9g5%D0Y%95%17%7C%C8c%B0%7C%18%26%9CU%CD%13i%F7%AA%90%B3Z%7D%95%B4%C7%60%E6E%B5%BC%05%B4%FBY%95U%9E%DB%FD%1C%FC%E0%9F%83%7F%BE%17%7DkjMU%E3%03%AC%7CWj%DF%83%9An%BCG%AE%F1%95%96yQ%0Dq%5Dy%00%3Et%B5'%FC6%5DS%95pV%95%01%81%FF'%07%00%00%00%00%00%00%00%00%00%F8x%C7%F0%BE%9COp%5D%C9%7C%AD%E7%E6%EBV%FB%1E%E0(%07%E5%AC%C6%3A%ABi%9C%8F%C6%0E9%AB%C0'%D2%8E%9F%F99%D0E%B5%99%14%F5%0D%CD%7F%24%C6%DEH%B8%E9rV%DFs%DB%D0%F7%00k%FE%1D%84%84%83J%B8%E3%BA%FB%EF%20%84%1C%D7%AD%B0%8E%D7U%C8Y%05%1E%D4t%EF%AD%95Q%BF8w%BF%E9%0A%BF%EB%03%00%00%00%00%00%00%00%00%00%B8vJ%8E%BB%F5%B1u%8Cx%80%E1o%5E%CA9%AB%CB%CB%8E%03%DF%1D%B7T%25%9C%D5(%EFJM8%AB%CC'%D2%B2*%A4s%E7c6%FB%3E%FA%A2%1E%80~%0E%3E%DA%10x%5D%95Uig%15u%15%ED%7C%14%B6%87%A1%3B%FCo8%A8%D8o%D3%ADO%01%EDx%83%1A~%1B%9FpP%A3%DC%C6'%9C%95gK%00%00%00%00%00%00%00%00%00%20%D9%C9%11%D0%C0%40%AF%3F%EE%EE%92%94%D6%16X%B5%BCMH%15%2F%BF%D4%A7%C87%F1%8E%F2%81%AE%AAvzr%DA2%ABV%17%7C%E63%83%E7I%DC%C6%0Bs%1B%EF6%1E%00%00%00%00%00%00%00%00%00%80cr%9CW%FF%7F%C6%01%0E%F1%CE%A5%84%B3%CA%BC%E0%CB%AA%84%CE%F9%BF)%EC%13%08WU%AE%AB%B1%AE%2BO%EC%8E%CBYe%FE%8CN%ABr%5Dy%60~%CFA%0D%F4%AE%D4%BE%C75%CA%EDVB%EA(%B7%F1%09g%E5%D9%12%00%00%00%00%00%00%00%00%00H%F6%EB%13S%E7y%5E%5E%FB%98%F0%22%D1%B2'%A7%F0%92%B1%BC%24z3%AC%7Dm%60%D5%92%B4%7CEUO%5E%F0%AA*%3BU%B9%AE%3E%A0j%94%07%A0%C7%A0%AB%FD%B5%3F%A0%F7%03T%3Dy%D7%F7%D6%D4%C0%AAU%D2%E6%DFt%3F%A8%CC%AA%F2%86%B9%D7%F5%1F%18%E6%01%F8%CC%D5%9E%F0%F3z%88%AA%90%EF%20%00%00%00%00%00%00%00%00%00%C0%A6%D3%EA%CFi%AFb%2C%7BB%0A%2B%C3%1A%D7%06V%D5%07%A8r%5D%3D%D9%A6%CAu%F5%25%CF%A2%99%97zNX%60%95%AB%5DUZ%D5%FBR%03%AB%1C%D4k%9F%3F%BB%5C%FF%81a%AE%AB'%7F%F3%EA%FE%F3z%94%AA%D8%DF%5B%01%00%00%00%00%00%00%00%00%00%8E%FB%F3%F2%B1%1B%8DWU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*UiU%C7%BBe%E7%F3%B9%CB%AAJ%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5*%AAj%FD%C6%D4%5Eo%90%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5%86%AF%1B%9F%98%DA%EBm%BBV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%AD%D6%E4%F58%01%00%00%00%00%00%00%00%00%00%00%00%00%00%40%85%7F%02%0C%008%C2%D0H%16j%8FX%00%00%00%00IEND%AEB%60%82") repeat-x !important;
+    border-top: 1px solid #BBBBBB !important;
+    border-right: 1px dashed #BBBBBB !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.firebugRulerV {
+    top: 0 !important;
+    left: -15px !important;
+    width: 14px !important;
+    height: 100% !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%0E%00%00%13%88%08%02%00%00%00%0E%F5%CB%10%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%06~IDATx%DA%EC%DD%D1v%A20%14%40Qt%F1%FF%FF%E4%97%D9%07%3BT%19%92%DC%40(%90%EEy%9A5%CB%B6%E8%F6%9Ac%A4%CC0%84%FF%DC%9E%CF%E7%E3%F1%88%DE4%F8%5D%C7%9F%2F%BA%DD%5E%7FI%7D%F18%DDn%BA%C5%FB%DF%97%BFk%F2%10%FF%FD%B4%F2M%A7%FB%FD%FD%B3%22%07p%8F%3F%AE%E3%F4S%8A%8F%40%EEq%9D%BE8D%F0%0EY%A1Uq%B7%EA%1F%81%88V%E8X%3F%B4%CEy%B7h%D1%A2E%EBohU%FC%D9%AF2fO%8BBeD%BE%F7X%0C%97%A4%D6b7%2Ck%A5%12%E3%9B%60v%B7r%C7%1AI%8C%BD%2B%23r%00c0%B2v%9B%AD%CA%26%0C%1Ek%05A%FD%93%D0%2B%A1u%8B%16-%95q%5Ce%DCSO%8E%E4M%23%8B%F7%C2%FE%40%BB%BD%8C%FC%8A%B5V%EBu%40%F9%3B%A72%FA%AE%8C%D4%01%CC%B5%DA%13%9CB%AB%E2I%18%24%B0n%A9%0CZ*Ce%9C%A22%8E%D8NJ%1E%EB%FF%8F%AE%CAP%19*%C3%BAEKe%AC%D1%AAX%8C*%DEH%8F%C5W%A1e%AD%D4%B7%5C%5B%19%C5%DB%0D%EF%9F%19%1D%7B%5E%86%BD%0C%95%A12%AC%5B*%83%96%CAP%19%F62T%86%CAP%19*%83%96%CA%B8Xe%BC%FE)T%19%A1%17xg%7F%DA%CBP%19*%C3%BA%A52T%86%CAP%19%F62T%86%CA%B0n%A9%0CZ%1DV%C6%3D%F3%FCH%DE%B4%B8~%7F%5CZc%F1%D6%1F%AF%84%F9%0F6%E6%EBVt9%0E~%BEr%AF%23%B0%97%A12T%86%CAP%19%B4T%86%CA%B8Re%D8%CBP%19*%C3%BA%A52huX%19%AE%CA%E5%BC%0C%7B%19*CeX%B7h%A9%0C%95%E1%BC%0C%7B%19*CeX%B7T%06%AD%CB%5E%95%2B%BF.%8F%C5%97%D5%E4%7B%EE%82%D6%FB%CF-%9C%FD%B9%CF%3By%7B%19%F62T%86%CA%B0n%D1R%19*%A3%D3%CA%B0%97%A12T%86uKe%D0%EA%B02*%3F1%99%5DB%2B%A4%B5%F8%3A%7C%BA%2B%8Co%7D%5C%EDe%A8%0C%95a%DDR%19%B4T%C66%82fA%B2%ED%DA%9FC%FC%17GZ%06%C9%E1%B3%E5%2C%1A%9FoiB%EB%96%CA%A0%D5qe4%7B%7D%FD%85%F7%5B%ED_%E0s%07%F0k%951%ECr%0D%B5C%D7-g%D1%A8%0C%EB%96%CA%A0%A52T%C6)*%C3%5E%86%CAP%19%D6-%95A%EB*%95q%F8%BB%E3%F9%AB%F6%E21%ACZ%B7%22%B7%9B%3F%02%85%CB%A2%5B%B7%BA%5E%B7%9C%97%E1%BC%0C%EB%16-%95%A12z%AC%0C%BFc%A22T%86uKe%D0%EA%B02V%DD%AD%8A%2B%8CWhe%5E%AF%CF%F5%3B%26%CE%CBh%5C%19%CE%CB%B0%F3%A4%095%A1%CAP%19*Ce%A8%0C%3BO*Ce%A8%0C%95%A12%3A%AD%8C%0A%82%7B%F0v%1F%2FD%A9%5B%9F%EE%EA%26%AF%03%CA%DF9%7B%19*Ce%A8%0C%95%A12T%86%CA%B8Ze%D8%CBP%19*Ce%A8%0C%95%D1ae%EC%F7%89I%E1%B4%D7M%D7P%8BjU%5C%BB%3E%F2%20%D8%CBP%19*Ce%A8%0C%95%A12T%C6%D5*%C3%5E%86%CAP%19*Ce%B4O%07%7B%F0W%7Bw%1C%7C%1A%8C%B3%3B%D1%EE%AA%5C%D6-%EBV%83%80%5E%D0%CA%10%5CU%2BD%E07YU%86%CAP%19*%E3%9A%95%91%D9%A0%C8%AD%5B%EDv%9E%82%FFKOee%E4%8FUe%A8%0C%95%A12T%C6%1F%A9%8C%C8%3D%5B%A5%15%FD%14%22r%E7B%9F%17l%F8%BF%ED%EAf%2B%7F%CF%ECe%D8%CBP%19*Ce%A8%0C%95%E1%93~%7B%19%F62T%86%CAP%19*Ce%A8%0C%E7%13%DA%CBP%19*Ce%A8%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4%AE%A4%F5%25%C0%00%DE%BF%5C'%0F%DA%B8q%00%00%00%00IEND%AEB%60%82") repeat-y !important;
+    border-left: 1px solid #BBBBBB !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px dashed #BBBBBB !important;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
+</style><style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+/** reset styling **/
+.firebugResetStyles {
+    z-index: 2147483646 !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    position: fixed !important;
+    transform: rotate(0deg) !important;
+    transform-origin: 50% 50% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent none !important;
+    pointer-events: none !important;
+    white-space: normal !important;
+}
+style.firebugResetStyles {
+    display: none !important;
+}
+
+.firebugBlockBackgroundColor {
+    background-color: transparent !important;
+}
+
+.firebugResetStyles:before, .firebugResetStyles:after {
+    content: "" !important;
+}
+/**actual styling to be modified by firebug theme**/
+.firebugCanvas {
+    display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    width: auto !important;
+    position: static !important;
+}
+
+.firebugLayoutBoxOffset {
+    opacity: 0.8 !important;
+    position: fixed !important;
+}
+
+.firebugLayoutLine {
+    opacity: 0.4 !important;
+    background-color: #000000 !important;
+}
+
+.firebugLayoutLineLeft, .firebugLayoutLineRight {
+    width: 1px !important;
+    height: 100% !important;
+}
+
+.firebugLayoutLineTop, .firebugLayoutLineBottom {
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px !important;
+    border-top: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999 !important;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px !important;
+    border-left: 1px solid #999999 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBoxParent {
+    border-top: 0 none !important;
+    border-right: 1px dashed #E00 !important;
+    border-bottom: 1px dashed #E00 !important;
+    border-left: 0 none !important;
+    position: fixed !important;
+    width: auto !important;
+}
+
+.firebugRuler{
+    position: absolute !important;
+}
+
+.firebugRulerH {
+    top: -15px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 14px !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%13%88%00%00%00%0E%08%02%00%00%00L%25a%0A%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%04%F8IDATx%DA%EC%DD%D1n%E2%3A%00E%D1%80%F8%FF%EF%E2%AF2%95%D0D4%0E%C1%14%B0%8Fa-%E9%3E%CC%9C%87n%B9%81%A6W0%1C%A6i%9A%E7y%0As8%1CT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AATE9%FE%FCw%3E%9F%AF%2B%2F%BA%97%FDT%1D~K(%5C%9D%D5%EA%1B%5C%86%B5%A9%BDU%B5y%80%ED%AB*%03%FAV9%AB%E1%CEj%E7%82%EF%FB%18%BC%AEJ8%AB%FA'%D2%BEU9%D7U%ECc0%E1%A2r%5DynwVi%CFW%7F%BB%17%7Dy%EACU%CD%0E%F0%FA%3BX%FEbV%FEM%9B%2B%AD%BE%AA%E5%95v%AB%AA%E3E5%DCu%15rV9%07%B5%7F%B5w%FCm%BA%BE%AA%FBY%3D%14%F0%EE%C7%60%0EU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5JU%88%D3%F5%1F%AE%DF%3B%1B%F2%3E%DAUCNa%F92%D02%AC%7Dm%F9%3A%D4%F2%8B6%AE*%BF%5C%C2Ym~9g5%D0Y%95%17%7C%C8c%B0%7C%18%26%9CU%CD%13i%F7%AA%90%B3Z%7D%95%B4%C7%60%E6E%B5%BC%05%B4%FBY%95U%9E%DB%FD%1C%FC%E0%9F%83%7F%BE%17%7DkjMU%E3%03%AC%7CWj%DF%83%9An%BCG%AE%F1%95%96yQ%0Dq%5Dy%00%3Et%B5'%FC6%5DS%95pV%95%01%81%FF'%07%00%00%00%00%00%00%00%00%00%F8x%C7%F0%BE%9COp%5D%C9%7C%AD%E7%E6%EBV%FB%1E%E0(%07%E5%AC%C6%3A%ABi%9C%8F%C6%0E9%AB%C0'%D2%8E%9F%F99%D0E%B5%99%14%F5%0D%CD%7F%24%C6%DEH%B8%E9rV%DFs%DB%D0%F7%00k%FE%1D%84%84%83J%B8%E3%BA%FB%EF%20%84%1C%D7%AD%B0%8E%D7U%C8Y%05%1E%D4t%EF%AD%95Q%BF8w%BF%E9%0A%BF%EB%03%00%00%00%00%00%00%00%00%00%B8vJ%8E%BB%F5%B1u%8Cx%80%E1o%5E%CA9%AB%CB%CB%8E%03%DF%1D%B7T%25%9C%D5(%EFJM8%AB%CC'%D2%B2*%A4s%E7c6%FB%3E%FA%A2%1E%80~%0E%3E%DA%10x%5D%95Uig%15u%15%ED%7C%14%B6%87%A1%3B%FCo8%A8%D8o%D3%ADO%01%EDx%83%1A~%1B%9FpP%A3%DC%C6'%9C%95gK%00%00%00%00%00%00%00%00%00%20%D9%C9%11%D0%C0%40%AF%3F%EE%EE%92%94%D6%16X%B5%BCMH%15%2F%BF%D4%A7%C87%F1%8E%F2%81%AE%AAvzr%DA2%ABV%17%7C%E63%83%E7I%DC%C6%0Bs%1B%EF6%1E%00%00%00%00%00%00%00%00%00%80cr%9CW%FF%7F%C6%01%0E%F1%CE%A5%84%B3%CA%BC%E0%CB%AA%84%CE%F9%BF)%EC%13%08WU%AE%AB%B1%AE%2BO%EC%8E%CBYe%FE%8CN%ABr%5Dy%60~%CFA%0D%F4%AE%D4%BE%C75%CA%EDVB%EA(%B7%F1%09g%E5%D9%12%00%00%00%00%00%00%00%00%00H%F6%EB%13S%E7y%5E%5E%FB%98%F0%22%D1%B2'%A7%F0%92%B1%BC%24z3%AC%7Dm%60%D5%92%B4%7CEUO%5E%F0%AA*%3BU%B9%AE%3E%A0j%94%07%A0%C7%A0%AB%FD%B5%3F%A0%F7%03T%3Dy%D7%F7%D6%D4%C0%AAU%D2%E6%DFt%3F%A8%CC%AA%F2%86%B9%D7%F5%1F%18%E6%01%F8%CC%D5%9E%F0%F3z%88%AA%90%EF%20%00%00%00%00%00%00%00%00%00%C0%A6%D3%EA%CFi%AFb%2C%7BB%0A%2B%C3%1A%D7%06V%D5%07%A8r%5D%3D%D9%A6%CAu%F5%25%CF%A2%99%97zNX%60%95%AB%5DUZ%D5%FBR%03%AB%1C%D4k%9F%3F%BB%5C%FF%81a%AE%AB'%7F%F3%EA%FE%F3z%94%AA%D8%DF%5B%01%00%00%00%00%00%00%00%00%00%8E%FB%F3%F2%B1%1B%8DWU%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*UiU%C7%BBe%E7%F3%B9%CB%AAJ%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5J%95*U%AAT%A9R%A5*%AAj%FD%C6%D4%5Eo%90%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5%86%AF%1B%9F%98%DA%EBm%BBV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%ADV%AB%D5j%B5Z%AD%D6%E4%F58%01%00%00%00%00%00%00%00%00%00%00%00%00%00%40%85%7F%02%0C%008%C2%D0H%16j%8FX%00%00%00%00IEND%AEB%60%82") repeat-x !important;
+    border-top: 1px solid #BBBBBB !important;
+    border-right: 1px dashed #BBBBBB !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.firebugRulerV {
+    top: 0 !important;
+    left: -15px !important;
+    width: 14px !important;
+    height: 100% !important;
+    background: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%0E%00%00%13%88%08%02%00%00%00%0E%F5%CB%10%00%00%00%04gAMA%00%00%D6%D8%D4OX2%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%06~IDATx%DA%EC%DD%D1v%A20%14%40Qt%F1%FF%FF%E4%97%D9%07%3BT%19%92%DC%40(%90%EEy%9A5%CB%B6%E8%F6%9Ac%A4%CC0%84%FF%DC%9E%CF%E7%E3%F1%88%DE4%F8%5D%C7%9F%2F%BA%DD%5E%7FI%7D%F18%DDn%BA%C5%FB%DF%97%BFk%F2%10%FF%FD%B4%F2M%A7%FB%FD%FD%B3%22%07p%8F%3F%AE%E3%F4S%8A%8F%40%EEq%9D%BE8D%F0%0EY%A1Uq%B7%EA%1F%81%88V%E8X%3F%B4%CEy%B7h%D1%A2E%EBohU%FC%D9%AF2fO%8BBeD%BE%F7X%0C%97%A4%D6b7%2Ck%A5%12%E3%9B%60v%B7r%C7%1AI%8C%BD%2B%23r%00c0%B2v%9B%AD%CA%26%0C%1Ek%05A%FD%93%D0%2B%A1u%8B%16-%95q%5Ce%DCSO%8E%E4M%23%8B%F7%C2%FE%40%BB%BD%8C%FC%8A%B5V%EBu%40%F9%3B%A72%FA%AE%8C%D4%01%CC%B5%DA%13%9CB%AB%E2I%18%24%B0n%A9%0CZ*Ce%9C%A22%8E%D8NJ%1E%EB%FF%8F%AE%CAP%19*%C3%BAEKe%AC%D1%AAX%8C*%DEH%8F%C5W%A1e%AD%D4%B7%5C%5B%19%C5%DB%0D%EF%9F%19%1D%7B%5E%86%BD%0C%95%A12%AC%5B*%83%96%CAP%19%F62T%86%CAP%19*%83%96%CA%B8Xe%BC%FE)T%19%A1%17xg%7F%DA%CBP%19*%C3%BA%A52T%86%CAP%19%F62T%86%CA%B0n%A9%0CZ%1DV%C6%3D%F3%FCH%DE%B4%B8~%7F%5CZc%F1%D6%1F%AF%84%F9%0F6%E6%EBVt9%0E~%BEr%AF%23%B0%97%A12T%86%CAP%19%B4T%86%CA%B8Re%D8%CBP%19*%C3%BA%A52huX%19%AE%CA%E5%BC%0C%7B%19*CeX%B7h%A9%0C%95%E1%BC%0C%7B%19*CeX%B7T%06%AD%CB%5E%95%2B%BF.%8F%C5%97%D5%E4%7B%EE%82%D6%FB%CF-%9C%FD%B9%CF%3By%7B%19%F62T%86%CA%B0n%D1R%19*%A3%D3%CA%B0%97%A12T%86uKe%D0%EA%B02*%3F1%99%5DB%2B%A4%B5%F8%3A%7C%BA%2B%8Co%7D%5C%EDe%A8%0C%95a%DDR%19%B4T%C66%82fA%B2%ED%DA%9FC%FC%17GZ%06%C9%E1%B3%E5%2C%1A%9FoiB%EB%96%CA%A0%D5qe4%7B%7D%FD%85%F7%5B%ED_%E0s%07%F0k%951%ECr%0D%B5C%D7-g%D1%A8%0C%EB%96%CA%A0%A52T%C6)*%C3%5E%86%CAP%19%D6-%95A%EB*%95q%F8%BB%E3%F9%AB%F6%E21%ACZ%B7%22%B7%9B%3F%02%85%CB%A2%5B%B7%BA%5E%B7%9C%97%E1%BC%0C%EB%16-%95%A12z%AC%0C%BFc%A22T%86uKe%D0%EA%B02V%DD%AD%8A%2B%8CWhe%5E%AF%CF%F5%3B%26%CE%CBh%5C%19%CE%CB%B0%F3%A4%095%A1%CAP%19*Ce%A8%0C%3BO*Ce%A8%0C%95%A12%3A%AD%8C%0A%82%7B%F0v%1F%2FD%A9%5B%9F%EE%EA%26%AF%03%CA%DF9%7B%19*Ce%A8%0C%95%A12T%86%CA%B8Ze%D8%CBP%19*Ce%A8%0C%95%D1ae%EC%F7%89I%E1%B4%D7M%D7P%8BjU%5C%BB%3E%F2%20%D8%CBP%19*Ce%A8%0C%95%A12T%C6%D5*%C3%5E%86%CAP%19*Ce%B4O%07%7B%F0W%7Bw%1C%7C%1A%8C%B3%3B%D1%EE%AA%5C%D6-%EBV%83%80%5E%D0%CA%10%5CU%2BD%E07YU%86%CAP%19*%E3%9A%95%91%D9%A0%C8%AD%5B%EDv%9E%82%FFKOee%E4%8FUe%A8%0C%95%A12T%C6%1F%A9%8C%C8%3D%5B%A5%15%FD%14%22r%E7B%9F%17l%F8%BF%ED%EAf%2B%7F%CF%ECe%D8%CBP%19*Ce%A8%0C%95%E1%93~%7B%19%F62T%86%CAP%19*Ce%A8%0C%E7%13%DA%CBP%19*Ce%A8%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4h%A9%0C%B3E%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%A9%0CZf%8B%16-Z%B4h%D1R%19f%8B%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1R%19%B4%CC%16-Z%B4h%D1%A2%A52%CC%16-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2%A52h%99-Z%B4h%D1%A2EKe%98-Z%B4h%D1%A2EKe%D02%5B%B4h%D1%A2EKe%D02%5B%B4h%D1%A2E%8B%96%CA0%5B%B4h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%96%CA%A0e%B6h%D1%A2E%8B%16-%95a%B6h%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-%95A%CBl%D1%A2E%8B%16-Z*%C3l%D1%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z*%83%96%D9%A2E%8B%16-Z%B4T%86%D9%A2E%8B%16-Z%B4T%06-%B3E%8B%16-Z%B4%AE%A4%F5%25%C0%00%DE%BF%5C'%0F%DA%B8q%00%00%00%00IEND%AEB%60%82") repeat-y !important;
+    border-left: 1px solid #BBBBBB !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1px dashed #BBBBBB !important;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0 !important;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0 !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.fbProxyElement {
+    position: fixed !important;
+    pointer-events: auto !important;
+}
+</style></head>
+<body data-offset="30" data-target=".sidebar-left .tabs-left" data-spy="scroll" style="height: auto;" class="">
+<div class="scontainer">
+<div class="container proposal-preview-container">
+<div class="container-fluid">
+
+<div class="xweb-tab">
+<div class="proposal-html">
+
+
+
+
+<script type="text/javascript">
+  if(typeof(window.Quotes) === 'undefined')
+    window.Quotes = {};
+  if(typeof(window.Quotes.vars) === 'undefined')
+    window.Quotes.vars = {};
+  window.Quotes.vars.account_id = 2;
+  window.Quotes.vars.proposal_id = 1;
+  window.Quotes.vars.decimals = 2;
+  window.Quotes.vars.always_show_two_decimals = false;
+  window.Quotes.vars.automatically_create_text_area = false;
+  window.Quotes.vars.stripe_amount = 0;
+  window.Quotes.vars.stripe_amount = 599800;
+  window.Quotes.vars.first_pricing_table_id = 1;
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+
+  function initializeGalleryPopup(){
+    $('a.gallery').magnificPopup({type:'image', removalDelay: 300,
+    mainClass: 'mfp-fade',
+    gallery:{
+      enabled: true
+    }});
+  }
+
+  function initializeHelpPopovers(){
+  }
+
+  $(function (){
+    initializeGalleryPopup();
+    initializeHelpPopovers();
+  })
+
+function fluidDialog() {
+    var $visible = $(".ui-dialog:visible");
+    // each open dialog
+    $visible.each(function () {
+        var $this = $(this);
+        var dialog = $this.find(".ui-dialog-content").data("ui-dialog");
+        // if fluid option == true
+        if (true || dialog.options.fluid) {
+            var wWidth = $(window).width();
+            // check window width against dialog width
+            if (wWidth < wWidth + 50) {
+                // keep dialog from filling entire screen
+                $this.css("max-width", "96%");
+            } else {
+                // fix maxWidth bug
+                $this.css("max-width", wWidth);
+            }
+            //reposition dialog
+            dialog.option("position", dialog.options.position);
+        }
+    });
+
+}
+
+  window.Quotes.vars.pdf_in_progress = false;
+
+  if(typeof(jQuery.timeago) === 'undefined')
+    jQuery.timeago = {};
+  if(typeof(jQuery.timeago.settings) === 'undefined')
+    jQuery.timeago.settings = {};
+  if(typeof(jQuery.timeago.settings.lang) === 'undefined')
+    jQuery.timeago.settings.lang = {};
+
+  jQuery.timeago.settings.lang = "en";
+
+  var init_proposal_show = function() {
+    if(window.Quotes.vars.proposal_init == true)
+      return;
+
+    $("a.request-new-proposal").click( function(){
+      $("#comment_body").val("Could you please send me a new proposal? Thank you.");
+      $(".discuss-proposal-button").click();
+    });
+
+    if($('.sidebar-left-inner').length == 0)
+      return;
+
+    window.Quotes.vars.proposal_init = true;
+
+    $( ".new-areas-draggable a" ).draggable({
+      connectToSortable: ".proposal-areas",
+      helper: function( event ) {
+      return $( "<div class='my-draggable-helper'>Drag me into the content of a section.</div>" );
+      },
+      appendTo: document.body,
+      start: function( event, ui ) {
+        $('.area-heading').blur();
+        $('div[contentEditable="true"]').blur();
+      },
+      revert: "invalid"
+    });
+
+    // $( ".show-desktop-version-button" ).click(function(){
+      // var targetWidth = '1280';
+      // $('meta[name="viewport"]').attr('content', 'width=' + targetWidth);
+      // $('meta[name="HandheldFriendly"]').remove();
+      // $('meta[name="viewport"]').remove();
+    // });
+
+    var scrollableLayout = true;
+
+    var $sidebar = $('.sidebar-left-inner'), $w = $(window);
+
+    $w.resize(function () {
+      var preview = $('.proposal-preview');
+
+      var aspect_ratio_letter = 1.2942;
+      var aspect_ratio = aspect_ratio_letter;
+      if(preview.hasClass('paper-a4') && !($(window).width() < 1200))
+        aspect_ratio = 420/297;
+
+      if($(window).width() < 1200){
+        if(!preview.hasClass('small-window'))
+          preview.addClass('small-window');
+      }else{
+        if(preview.hasClass('small-window'))
+          preview.removeClass('small-window');
+      }
+
+      if(preview.hasClass('cover-full-height')){
+        $('.proposal-content .cover-page').each(function(){
+          var cover = $(this);
+          var width = cover.width();
+          var height = width * aspect_ratio;
+          cover.css('min-height', height);
+          cover.find('.inner-slide').css('min-height', height);
+          var section = cover.find('.proposal-section');
+          var info_padding = (height*0.438);
+          if(width < 800)
+              info_padding = (height*0.33);
+          if(width < 600)
+              info_padding = (height*0.3);
+          if(width < 400)
+              info_padding = (height*0.2);
+          section.css('min-height', height-info_padding-parseInt(section.css('padding-bottom')));
+          section.css('padding-top', info_padding);
+          var new_margin_top = height*0.2;
+          var max_margin_top = height - cover.find('.proposal-info').outerHeight(false) - parseInt(cover.find('.proposal-info').css("marginBottom").replace('px', '')) - cover.find('h2.proposal-name').outerHeight(true) - cover.find('h2.proposal-name').position().top;
+          if(new_margin_top > max_margin_top)
+            new_margin_top = max_margin_top;
+          cover.find('.proposal-info').css('margin-top', new_margin_top);
+        });
+      }else{
+        $('.proposal-content .cover-page').each(function(){
+          var cover = $(this);
+          cover.css('min-height', '');
+          cover.find('.inner-slide').css('min-height', '');
+          var section = cover.find('.proposal-section');
+          section.css('min-height', '');
+          section.css('padding-top', '');
+          cover.find('.proposal-info').css('margin-top', '');
+        });
+      }
+
+      if($(".responsive-layout.small-window").length > 0){
+        $(document).on("dialogopen", ".ui-dialog", function (event, ui) {
+          fluidDialog();
+        });
+
+        fluidDialog();
+
+        var dynamic_css = '';
+        var my_width = $(window).width();
+        my_width = $('.proposal-preview-container .proposal-html .tab-content .inner-slide').width();
+
+        dynamic_css = '@media only screen and (max-width: 758px) {'
+        dynamic_css += ' .responsive-layout.proposal-preview.small-window .proposal-preview-container .proposal-html .tab-content .inner-slide{ background-position: center '+((my_width*aspect_ratio)*0.8)+'px, center top;'+
+            'background-size: 100% '+((my_width*aspect_ratio)*0.3)+'px, '+my_width+'px '+(my_width*aspect_ratio)+'px !important; }';
+
+        dynamic_css += '.responsive-layout.proposal-pageless.small-window .proposal-html .proposal-content.scrollable-layout > .tab-content > .tab-pane.first-section'+
+' .inner-slide:before, .responsive-layout.proposal-pageless.small-window .proposal-html .proposal-content.scrollable-layout > .tab-content'+
+' > .tab-pane.last-section .inner-slide:before, .responsive-layout.small-window .proposal-preview-container .proposal-html .tab-content'+
+' .inner-slide:before { background-size: 100% 3cm, '+my_width+'px '+(my_width*aspect_ratio)+'px !important;'+
+  'height: '+((my_width*aspect_ratio)*0.33)+'px; }';
+
+        dynamic_css += '.proposal-preview-container .proposal-html .tab-content .inner-slide:after {'+
+            ' background-size: 100% '+((my_width*aspect_ratio)*0.2)+'px !important;'+
+            ' height: '+((my_width*aspect_ratio)*0.4)+'px !important; }'
+
+        dynamic_css += '}';
+
+        $("style#dynamic_style").remove();
+        $("style#custom_style").before("<style type='text/css' id='dynamic_style'>"+dynamic_css+"</style>");
+      }
+
+      var from_top = ($sidebar.position().top + $sidebar.outerHeight(true));
+      
+      if($('#wysiwyg-main-toolbar').length > 0){
+        var left = $('.proposal-content').position().left+110;
+
+        $('#wysiwyg-main-toolbar').css('left', left);
+
+        if( $('.is-editing').is(':visible')){
+          if(true || from_top > $(window).height()){
+            $sidebar.css({position: 'fixed'});
+            var max = ($(window).height()-$('.proposal-buttons-edit-container').height()-parseInt($('.scontainer').css('padding-top')));
+            if($('.sidebar-left .proposal-info-container').is(':visible'))
+              max -= $('.sidebar-left .proposal-info-container').outerHeight(true);
+
+            $('.sidebar-left .tabs-left .tab1').css({'max-height': max, 'overflow-y': 'auto'});
+            var more = $('.sidebar-left .tabs-left .tab2 .search-row').outerHeight(true)+$('.sidebar-left .tabs-left .tab2 .tag-list').outerHeight(true);
+            if(max != 0){
+              //$('.sidebar-left .tabs-left .tab2 .tag-list-container').css({'max-height': max-more, 'overflow-y': 'auto'});
+              $('.sidebar-left .tabs-left .tab2 .block-list').css({'max-height': max-more, 'overflow-y': 'auto'});
+            }
+          }else{
+            $('.sidebar-left .tabs-left .tab1').css({'max-height': 'none', 'overflow-y': 'auto'});
+          }
+        }else{
+          $('.sidebar-left .tabs-left .tab1').css({'max-height': 'none', 'overflow-y': 'auto'});
+        }
+      }
+      var from_top = ($sidebar.position().top + $sidebar.outerHeight(true));
+      if($('#wysiwyg-main-toolbar').length == 0 || !$('.is-editing').is(':visible')){
+        if($sidebar.css('position') == 'fixed')
+          from_top -= $(document).scrollTop();
+
+        var pos = $w.height() < from_top ? 'static': 'fixed';
+        pos = 'fixed';
+
+        if($w.width() < 1024)
+          pos = 'static';
+
+        if(pos == 'fixed'){
+          var max = $(window).height()-parseInt($('.scontainer').css('padding-top'));
+          var leftPaneHeight = $('.sidebar-left-inner').outerHeight(true);
+          var sectionsHeight = $('.sidebar-left-inner .tabs-left').outerHeight(true);
+          var maxHeight = max-leftPaneHeight+sectionsHeight;
+
+          if(leftPaneHeight-sectionsHeight < max && maxHeight > 120){
+
+            $('.sidebar-left-inner .tabs-left').css({'max-height': maxHeight, 'overflow-y': 'auto'});
+          }else{
+            pos = 'static';
+            $('.sidebar-left-inner .tabs-left').css({'max-height': 'none'});
+          }
+        }else{
+          $('.sidebar-left-inner .tabs-left').css({'max-height': 'none'});
+        }
+
+        $sidebar.css({position: pos});
+        // console.log('d');
+      }
+      if($('.is-editing').is(':visible')){
+        $sidebar.css({position: 'fixed'});
+      }
+    });
+    $w.resize();
+    setTimeout(function(){ $w.resize();}, 500);    
+
+    $(window).scroll(function () {
+      if($('.sidebar-left-inner .tabs-left').css('max-height') != 'none'){
+        var s = $(window).scrollTop(),
+                d = $(document).height(),
+                c = $(window).height();
+                scrollPercent = (s / (d-c)) * 100;
+
+        if(!isNaN(scrollPercent)){
+          $('.sidebar-left-inner .tabs-left').scrollTo( scrollPercent+'%' );
+        }
+      }
+    });
+
+    var left_menu_click_event = function(e) {
+      if(e !== undefined){
+        e.preventDefault();
+        e.stopPropagation();
+      }
+
+      if($('.pdf-tab').is(':visible'))
+      {
+        $('.web-link').click();
+      }
+
+      var target = this.hash;
+      var off = -25;
+      if($('.sample-proposal-top').length > 0){
+        off = -$('.sample-proposal-top').outerHeight(true)-10;
+      }
+
+      $.scrollTo(target, 500, {offset: off, axis: 'y'});
+    }
+
+    $('.sidebar-left .tabs-left ul a').on('click', left_menu_click_event);
+
+    $('body, html').css('height', 'auto');
+    var spyoffset = '30';
+    if($('.sample-proposal-top').length > 0){
+      spyoffset = 30+$('.sample-proposal-top').outerHeight(true);
+    }
+
+    $('body').attr('data-spy', 'scroll').attr('data-target', '.sidebar-left .tabs-left').attr('data-offset', spyoffset);
+
+    $('.proposal-html .proposal-content > .tab-content').css('width','');
+
+
+  // $(document).ready(function() {
+    $('.pdf-link').click(function(){
+      if( !$('#pdf object').attr('data')){
+
+        pdfurl = 'sample_proposal.pdf?preview_theme_id=4';
+
+        var myPDF = new PDFObject({
+          url: pdfurl,
+          pdfOpenParams: { navpanes: '0', view: 'Fit' }
+        }).embed('pdf');
+
+        var newHeight = $(window).height()-70;// - $('.navbar').height() - parseInt($('.navbar').css('marginBottom'));
+        if($('.sample-proposal-top').length > 0){
+          newHeight -= $('.sample-proposal-top').height();
+        }
+      
+        $('.proposal-pdf').height( newHeight);
+        
+        $('#pdf object').height( newHeight);
+
+        var set_correct_width = function(){
+          var width = $('.proposal-pdf').width();
+          $('.proposal-content .pdf-tab').width( width-1);
+          $('.proposal-content .pdf-tab').width( width);
+          $('#pdf object').attr( 'width', width-1);
+          $('#pdf object').attr( 'width', width);
+          $('#pdf object').width( width-1);
+          $('#pdf object').width( width);
+        }
+        set_correct_width();
+        setTimeout(set_correct_width, 100);
+        setTimeout(set_correct_width, 1000);
+        setTimeout(set_correct_width, 2000);
+        setTimeout(set_correct_width, 5000);
+        setTimeout(set_correct_width, 10000);
+        setTimeout(set_correct_width, 15000);
+        setTimeout(set_correct_width, 20000);
+
+        // $('.proposal-pdf').width( $(window).width());
+        // $('.proposal-pdf').css( 'position', 'absolute');
+        // $('.proposal-pdf').css( 'left', '0px');
+      }
+      
+
+      $('.footer').hide();
+      $('.pdf-link').hide();
+      $('.web-link').show();
+      $('.web-tab').hide();
+      $('.pdf-tab').show();
+      return false;
+    });
+    $('.web-link').click(function(){
+      if($('.web-tab').is(':visible') == false)
+      {
+        $('.footer').show();
+        $('.web-link').hide();
+        $('.pdf-link').show();
+        $('.pdf-tab').hide();
+        $('.web-tab').show();
+        if($('.web-tab').height() == 0)
+        {
+          $('.web-tab').height($('.web-tab > .active').height());
+        }
+      }
+      return false;
+    });
+  // });
+  };
+
+  $(document).ready(init_proposal_show);
+
+</script>
+
+
+<div class="row-fluid">
+
+
+
+<div class="span2 sidebar-left">
+  <div style="position: static;" class="sidebar-left-inner affix" data-spy="affix" data-offset-top="-10">
+
+  <div class="proposal-buttons-container proposal-buttons-edit-container">
+    <div class="center">
+
+
+      <div class="navigation-buttons">
+          <a class="btn" href="themes">Back</a>
+
+
+      <a class="edit-theme-button btn btn-success" href=""><i class="icon-edit icon-white"></i> Preview &amp; edit themes</a>
+
+      </div>
+
+
+
+
+
+      <div class="cleaner"></div>
+    </div>
+  </div>
+
+
+  <div class="logo-container">
+    <img alt="Logo" src="medium_logo.png">
+  </div>
+  
+  <div class="proposal-info-container proposal-info-container-cover-exists">
+    <h2 class="show">Sample website</h2>
+    
+    <div class="proposal-to">To:  Bear Allen
+       - 
+      SoftCorp LLC</div>
+    <div class="proposal-from">From: John Doe  -  MegaCorp Inc.</div>
+  </div>
+
+  <div style="max-height: none; overflow-y: auto;" class="tabbable tabs-left">
+    <a class="show-sections" href="#collapseme" data-toggle="collapse" title="Show sections">
+      <i class="fa fa-list"></i>
+    </a>
+    <a href="/sample_proposal?desktop=true&amp;preview_theme_id=4" class="show-desktop-version-button" title="Show desktop version"><i class="fa fa-desktop"></i></a>
+
+    <ul class="nav nav-tabs collapse" id="collapseme">
+      <li class="active"><a href="#sectioncover">Cover page</a></li>
+      <li class=""><a href="#section580">About us</a></li>
+      <li><a href="#section581">Website specification</a></li>
+      <li><a href="#section582">Quote</a></li>
+      <li><a href="#section583">Service terms</a></li>
+    </ul>
+  </div>
+
+
+
+  <div class="proposal-buttons-container proposal-buttons-client-container">
+
+        <a class="btn btn-success approve-proposal-button" href="#"><span><i class="icon-ok icon-white"></i> Approve proposal</span></a>
+
+        <a class="btn btn-primary discuss-proposal-button" href="#"><i class="icon-comment icon-white"></i> Discuss<span class="discuss-comments-count"> (3)</span></a>
+
+          <a class="btn btn-danger reject-proposal-button" href="#"><i class="icon-ban-circle icon-white"></i> Reject proposal</a>
+
+    <div class="cleaner"></div>
+  </div>
+
+  <div class="pdf-buttons-container">
+    <div class="pdf-link">
+        <a class="show-pdf-button" href="">Show PDF version</a>
+    </div>
+    <div class="web-link" style="display: none">
+        <a class="show-pdf-button" href="">Show Web version</a>
+    </div>
+
+      <a class="download-pdf-button" href="sample_proposal.pdf?download=true&amp;preview_theme_id=4"><i class="fa fa-download"></i> Download PDF version</a>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+<div class="span10 proposal-content scrollable-layout ng-scope" ng-app="quoteClient" ng-controller="itemsClientControllerParent" 
+ng-init="initItems([{&quot;id&quot;:2940,&quot;name&quot;:&quot;Web&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;group&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;0&quot;,&quot;unit&quot;:null,&quot;vat&quot;:null,&quot;price_vat&quot;:&quot;0.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:0,&quot;pricing_table_id&quot;:1,&quot;total&quot;:null,&quot;total_vat&quot;:null,&quot;discounted_price&quot;:&quot;0&quot;},{&quot;id&quot;:1026,&quot;name&quot;:&quot;Requirements analysis&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;400&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;400.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:1,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;400.0&quot;,&quot;total_vat&quot;:&quot;400.0&quot;,&quot;discounted_price&quot;:&quot;400&quot;},{&quot;id&quot;:1027,&quot;name&quot;:&quot;Design&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:true,&quot;quantity&quot;:&quot;20&quot;,&quot;price&quot;:&quot;110&quot;,&quot;unit&quot;:&quot;hour&quot;,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;110.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:2,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;2200.0&quot;,&quot;total_vat&quot;:&quot;2200.0&quot;,&quot;discounted_price&quot;:&quot;110&quot;},{&quot;id&quot;:1028,&quot;name&quot;:&quot;Programming&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;15&quot;,&quot;price&quot;:&quot;120&quot;,&quot;unit&quot;:&quot;hour&quot;,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;120.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:3,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;1800.0&quot;,&quot;total_vat&quot;:&quot;1800.0&quot;,&quot;discounted_price&quot;:&quot;120&quot;},{&quot;id&quot;:1029,&quot;name&quot;:&quot;CMS installation&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;599&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;599.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:4,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;599.0&quot;,&quot;total_vat&quot;:&quot;599.0&quot;,&quot;discounted_price&quot;:&quot;599&quot;},{&quot;id&quot;:1030,&quot;name&quot;:&quot;Webhosting&quot;,&quot;description&quot;:&quot;Daily backups are included in the webhosting fee!&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;20&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;20.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:30,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:5,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;20.0&quot;,&quot;total_vat&quot;:&quot;20.0&quot;,&quot;discounted_price&quot;:&quot;20&quot;},{&quot;id&quot;:2941,&quot;name&quot;:&quot;Marketing&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;group&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;0&quot;,&quot;unit&quot;:null,&quot;vat&quot;:null,&quot;price_vat&quot;:&quot;0.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:6,&quot;pricing_table_id&quot;:1,&quot;total&quot;:null,&quot;total_vat&quot;:null,&quot;discounted_price&quot;:&quot;0&quot;},{&quot;id&quot;:2942,&quot;name&quot;:&quot;Consultation&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:true,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;999&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;999.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:7,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;999.0&quot;,&quot;total_vat&quot;:&quot;999.0&quot;,&quot;discounted_price&quot;:&quot;999&quot;},{&quot;id&quot;:2943,&quot;name&quot;:&quot;SEO package&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;1999&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;1999.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:8,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;1999.0&quot;,&quot;total_vat&quot;:&quot;1999.0&quot;,&quot;discounted_price&quot;:&quot;1999&quot;}],[{&quot;id&quot;:1,&quot;name&quot;:&quot;Default&quot;,&quot;selected&quot;:true,&quot;proposal_id&quot;:1,&quot;position&quot;:0,&quot;kind&quot;:&quot;default&quot;,&quot;show_totals&quot;:true,&quot;show_grandtotals&quot;:false,&quot;created_at&quot;:&quot;2012-08-08T18:54:24.024-03:00&quot;,&quot;updated_at&quot;:&quot;2013-09-08T16:28:10.655-03:00&quot;}])">
+
+<div class="tab-content web-tab proposal-approved proposal-signed">
+    <div class="tab-pane active first-section cover-page" id="sectioncover">
+      <div class="tab-content inner-slide">
+      <div class="proposal-section">
+          
+            <div class="company-logo-container"><div class="company-logo">
+            <img src="logo/4295/large_logo.png" alt="Logo"></div></div>
+
+          <h2 class="show proposal-name">Sample website</h2>
+          
+
+          <div class="proposal-info">
+
+          <div class="pi-client">
+          <div class="pi-header-to">To:</div>
+          <span class="pi-client-name">Bear Allen<br></span>
+          <span class="pi-client-business-name">SoftCorp LLC<br></span>
+          <span class="pi-client-email">bear@softcorpllc.com<br></span>
+          <span class="pi-client-phone">123 456 789<br></span>
+          <span class="pi-client-address"><p>
+United States
+</p></span>
+          </div>
+          <br>
+
+          <div class="pi-user">
+          <div class="pi-header-from">Prepared by:</div>
+          <span class="pi-user-name">John Doe<br></span>
+          <span class="pi-user-business-name">MegaCorp Inc.<br></span>
+          <span class="pi-user-email">hello@niftyquoter.com<br></span>
+          </div>
+
+          </div>
+      </div>
+      </div>
+    </div>
+    
+
+
+  
+
+  <div class="tab-pane" id="section580">
+    <div class="tab-content inner-slide">
+    <div class="proposal-section">
+    <h1 class="section-heading">About us</h1>
+      <h2 class="area-heading">
+      Our team
+      </h2>
+        <p>
+	Members of our team have 8+ years experience in the web development industry. They can deliver state of the art website for you. Because we are the full service web company, we will not only create a website for you, but we will bring you customers, analyze site usage and site traffic and propose another steps to grow your online business in cooperation with you.</p>
+<p>
+	Curabitur suscipit hendrerit tellus, eget varius justo consectetur id. Nulla congue venenatis blandit. Nunc sodales, tellus pretium faucibus feugiat, nulla orci iaculis massa, quis vehicula nibh ligula et neque. Nulla sit amet turpis ligula, vel cursus ante. Nullam vitae nisl tellus, quis aliquam turpis. Integer ut bibendum ligula. Proin eu velit eu purus aliquet tempor sed ut ipsum. Nulla dignissim aliquet dictum. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <h2 class="area-heading">
+      Our portfolio
+      </h2>
+        <table border="0" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+				<img alt="" src="/43/content_web-small.jpg" style="width: 300px; height: 195px;"></td>
+			<td style="text-align: center;">
+				<img alt="" src="/43/content_web-small.jpg" style="width: 300px; height: 195px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">
+				<strong>www.greatwebsite.com</strong></td>
+			<td style="text-align: center;">
+				<strong>www.greatwebsite2.com</strong></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">
+				<img alt="" src="/43/content_web-small.jpg" style="width: 300px; height: 195px;"></td>
+			<td style="text-align: center;">
+				<img alt="" src="/43/content_web-small.jpg" style="width: 300px; height: 195px;"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">
+				<strong>www.greatwebsite3.com</strong></td>
+			<td style="text-align: center;">
+				<strong>www.greatwebsite4.com</strong></td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+    </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="section581">
+    <div class="tab-content inner-slide">
+    <div class="proposal-section">
+    <h1 class="section-heading">Website specification</h1>
+      <h2 class="area-heading">
+      Web design
+      </h2>
+        <p>
+	Our creative design team will create the web design according modern trends. They will use their vast 8-year experience in creating websites.</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis nulla orci, at viverra neque. Praesent gravida odio vitae justo tristique condimentum. In hac habitasse platea dictumst. Donec id sodales enim. Sed purus mauris, sagittis ac cursus in, suscipit nec nisl. Ut eu iaculis odio. Fusce dui leo, egestas id sollicitudin dictum, convallis eget magna. Phasellus ultricies adipiscing mi ut vulputate. Nullam hendrerit nunc eu eros dictum nec adipiscing velit viverra. Maecenas accumsan fermentum velit, quis faucibus neque viverra sit amet. Donec tempor, dolor laoreet sagittis aliquet, dolor enim dignissim dolor, non condimentum libero lacus eu odio. Nam vitae dui nec erat hendrerit porttitor et eget nulla.</p>
+<p>
+	Etiam sed pulvinar leo. Vestibulum id diam eget nulla pellentesque pharetra. Nullam convallis leo eget libero porttitor feugiat. Praesent id risus est, sit amet vestibulum metus. Donec eu arcu nec odio iaculis consectetur et eget est. Etiam dui erat, vehicula nec feugiat id, tempus at nisl. Duis vitae magna mauris, ac scelerisque ante. Pellentesque pretium dolor eget neque feugiat consequat. Pellentesque imperdiet, enim ullamcorper fringilla volutpat, risus tortor lacinia elit, vitae laoreet tellus est at ante. Morbi porttitor urna magna, euismod venenatis velit.</p>
+
+      <h2 class="area-heading">
+      CMS - Drupal
+      </h2>
+        <p>
+	Drupal is an open source CMS used by thousands of projects. It's a proven technology we can easily customize to your specific needs.</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis nulla orci, at viverra neque. Praesent gravida odio vitae justo tristique condimentum. In hac habitasse platea dictumst. Donec id sodales enim. Sed purus mauris, sagittis ac cursus in, suscipit nec nisl. Ut eu iaculis odio. Fusce dui leo, egestas id sollicitudin dictum, convallis eget magna. Phasellus ultricies adipiscing mi ut vulputate. Nullam hendrerit nunc eu eros dictum nec adipiscing velit viverra. Maecenas accumsan fermentum velit, quis faucibus neque viverra sit amet. Donec tempor, dolor laoreet sagittis aliquet, dolor enim dignissim dolor, non condimentum libero lacus eu odio. Nam vitae dui nec erat hendrerit porttitor et eget nulla.</p>
+<p>
+	Etiam sed pulvinar leo. Vestibulum id diam eget nulla pellentesque pharetra. Nullam convallis leo eget libero porttitor feugiat. Praesent id risus est, sit amet vestibulum metus. Donec eu arcu nec odio iaculis consectetur et eget est. Etiam dui erat, vehicula nec feugiat id, tempus at nisl. Duis vitae magna mauris, ac scelerisque ante. Pellentesque pretium dolor eget neque feugiat consequat. Pellentesque imperdiet, enim ullamcorper fringilla volutpat, risus tortor lacinia elit, vitae laoreet tellus est at ante. Morbi porttitor urna magna, euismod venenatis velit.</p>
+<p>
+	&nbsp;</p>
+
+    </div>
+    </div>
+  </div>
+  <div class="tab-pane " id="section582">
+    <div class="tab-content inner-slide">
+    <div class="proposal-section">
+    <h1 class="section-heading">Quote</h1>
+      <h2 class="area-heading">
+      Quote info
+      </h2>
+        <p>
+	According to your requirements we created this quote for you.<br>
+	Please note that the quote is valid for 30 days only.</p>
+
+        <div class="price-table-container price-table-first ng-scope" ng-controller="itemsClientController" ng-init="initItems([{&quot;id&quot;:2940,&quot;name&quot;:&quot;Web&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;group&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;0&quot;,&quot;unit&quot;:null,&quot;vat&quot;:null,&quot;price_vat&quot;:&quot;0.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:0,&quot;pricing_table_id&quot;:1,&quot;total&quot;:null,&quot;total_vat&quot;:null,&quot;discounted_price&quot;:&quot;0&quot;},{&quot;id&quot;:1026,&quot;name&quot;:&quot;Requirements analysis&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;400&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;400.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:1,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;400.0&quot;,&quot;total_vat&quot;:&quot;400.0&quot;,&quot;discounted_price&quot;:&quot;400&quot;},{&quot;id&quot;:1027,&quot;name&quot;:&quot;Design&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:true,&quot;quantity&quot;:&quot;20&quot;,&quot;price&quot;:&quot;110&quot;,&quot;unit&quot;:&quot;hour&quot;,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;110.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:2,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;2200.0&quot;,&quot;total_vat&quot;:&quot;2200.0&quot;,&quot;discounted_price&quot;:&quot;110&quot;},{&quot;id&quot;:1028,&quot;name&quot;:&quot;Programming&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;15&quot;,&quot;price&quot;:&quot;120&quot;,&quot;unit&quot;:&quot;hour&quot;,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;120.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:3,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;1800.0&quot;,&quot;total_vat&quot;:&quot;1800.0&quot;,&quot;discounted_price&quot;:&quot;120&quot;},{&quot;id&quot;:1029,&quot;name&quot;:&quot;CMS installation&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;599&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;599.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:4,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;599.0&quot;,&quot;total_vat&quot;:&quot;599.0&quot;,&quot;discounted_price&quot;:&quot;599&quot;},{&quot;id&quot;:1030,&quot;name&quot;:&quot;Webhosting&quot;,&quot;description&quot;:&quot;Daily backups are included in the webhosting fee!&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;20&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;20.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:30,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:5,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;20.0&quot;,&quot;total_vat&quot;:&quot;20.0&quot;,&quot;discounted_price&quot;:&quot;20&quot;},{&quot;id&quot;:2941,&quot;name&quot;:&quot;Marketing&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;group&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:false,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;0&quot;,&quot;unit&quot;:null,&quot;vat&quot;:null,&quot;price_vat&quot;:&quot;0.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:6,&quot;pricing_table_id&quot;:1,&quot;total&quot;:null,&quot;total_vat&quot;:null,&quot;discounted_price&quot;:&quot;0&quot;},{&quot;id&quot;:2942,&quot;name&quot;:&quot;Consultation&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:true,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;999&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;999.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:7,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;999.0&quot;,&quot;total_vat&quot;:&quot;999.0&quot;,&quot;discounted_price&quot;:&quot;999&quot;},{&quot;id&quot;:2943,&quot;name&quot;:&quot;SEO package&quot;,&quot;description&quot;:&quot;&quot;,&quot;kind&quot;:&quot;item&quot;,&quot;discount&quot;:null,&quot;discount_type&quot;:&quot;relative&quot;,&quot;deposit_amount&quot;:false,&quot;optional&quot;:true,&quot;optional_checked&quot;:false,&quot;quantity&quot;:&quot;1&quot;,&quot;price&quot;:&quot;1999&quot;,&quot;unit&quot;:null,&quot;vat&quot;:&quot;0.0&quot;,&quot;price_vat&quot;:&quot;1999.0&quot;,&quot;purchase_price&quot;:null,&quot;period&quot;:null,&quot;image_url&quot;:null,&quot;code&quot;:null,&quot;editable_quantity&quot;:false,&quot;position&quot;:8,&quot;pricing_table_id&quot;:1,&quot;total&quot;:&quot;1999.0&quot;,&quot;total_vat&quot;:&quot;1999.0&quot;,&quot;discounted_price&quot;:&quot;1999&quot;}], {&quot;id&quot;:1,&quot;name&quot;:&quot;Default&quot;,&quot;selected&quot;:true,&quot;proposal_id&quot;:1,&quot;position&quot;:0,&quot;kind&quot;:&quot;default&quot;,&quot;show_totals&quot;:true,&quot;show_grandtotals&quot;:false,&quot;created_at&quot;:&quot;2012-08-08T18:54:24.024-03:00&quot;,&quot;updated_at&quot;:&quot;2013-09-08T16:28:10.655-03:00&quot;})">
+
+
+<table class="price-table optional-price-table groups-price-table" data-tax="false" ng-class="{'table-unchecked':!pricing_table.selected}">
+  <thead>
+
+    <tr>
+      <th class="name" colspan="3">
+        Name</th>
+      <th class="quantity">Quantity</th>
+      <th class="price">Price</th>
+      
+      <th class="total">Total</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+
+
+        <tr class="group-header">
+    <td class="name" colspan="6">Web
+    </td>
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[1]" class="oddrow      ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        
+        <div class="name-body">
+      
+
+      <span class="product-name">Requirements analysis</span>
+      
+      </div>
+    </td>
+      <td class="quantity">1</td>
+      <td class="price">
+        <span class="price-value">
+        $400
+        </span>
+      </td>
+      
+      <td class="total">$400</td>
+      
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[2]" class="optional-row    ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        <input class="ng-pristine ng-valid" name="checked_items[1027][checked]" value="1" ng-model="item.optional_checked" type="checkbox">
+        <div class="name-body">
+      
+
+      <span class="product-name">Design</span>
+      
+      </div>
+    </td>
+      <td class="quantity">20</td>
+      <td class="price">
+        <span class="price-value">
+        $110 / hour
+        </span>
+      </td>
+      
+      <td class="total">$2,200</td>
+      
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[3]" class="oddrow      ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        
+        <div class="name-body">
+      
+
+      <span class="product-name">Programming</span>
+      
+      </div>
+    </td>
+      <td class="quantity">15</td>
+      <td class="price">
+        <span class="price-value">
+        $120 / hour
+        </span>
+      </td>
+      
+      <td class="total">$1,800</td>
+      
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[4]" class="ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        
+        <div class="name-body">
+      
+
+      <span class="product-name">CMS installation</span>
+      
+      </div>
+    </td>
+      <td class="quantity">1</td>
+      <td class="price">
+        <span class="price-value">
+        $599
+        </span>
+      </td>
+      
+      <td class="total">$599</td>
+      
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[5]" class="has-description oddrow      ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        
+        <div class="name-body">
+      
+
+      <span class="product-name">Webhosting</span>
+      
+      <div class="description-body">
+      Daily backups are included in the webhosting fee!
+      </div>
+      </div>
+    </td>
+      <td class="quantity">1</td>
+      <td class="price">
+        <span class="price-value">
+        $20
+        </span>
+         per month
+      </td>
+      
+      <td class="total">$20</td>
+      
+  </tr>
+
+  <tr ng-controller="itemRowClientController" ng-init="item = child_items[5]" class="second-row oddrow     ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+    <td class="description" colspan="6">
+      <div class="description-body">
+      Daily backups are included in the webhosting fee!
+      </div></td>
+  </tr>
+
+      <tr class="overview subtotal-row" ng-hide="subtotalPrice(5,true,0,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal</td>
+          <td class="total ng-binding">$4,999</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,1001,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per hour</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,1,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per day</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,7,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per week</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,14,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 2 weeks</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr class="overview subtotal-row" ng-hide="subtotalPrice(5,true,30,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per month</td>
+          <td class="total ng-binding">$20</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,60,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 2 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,90,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 3 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,180,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 6 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(5,true,365,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per year</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+
+        <tr class="group-header">
+    <td class="name" colspan="6">Marketing
+    </td>
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[7]" class="optional-row    ng-scope" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        <input class="ng-pristine ng-valid" name="checked_items[2942][checked]" value="1" ng-model="item.optional_checked" type="checkbox">
+        <div class="name-body">
+      
+
+      <span class="product-name">Consultation</span>
+      
+      </div>
+    </td>
+      <td class="quantity">1</td>
+      <td class="price">
+        <span class="price-value">
+        $999
+        </span>
+      </td>
+      
+      <td class="total">$999</td>
+      
+  </tr>
+
+
+
+        <tr ng-controller="itemRowClientController" ng-init="item = child_items[8]" class="oddrow  optional-row    ng-scope optional-unchecked" ng-class="{'optional-unchecked':item.optional &amp;&amp; !item.optional_checked}">
+      <td class="name" colspan="3">
+        <input class="ng-pristine ng-valid" name="checked_items[2943][checked]" value="1" ng-model="item.optional_checked" type="checkbox">
+        <div class="name-body">
+      
+
+      <span class="product-name">SEO package</span>
+      
+      </div>
+    </td>
+      <td class="quantity">1</td>
+      <td class="price">
+        <span class="price-value">
+        $1,999
+        </span>
+      </td>
+      
+      <td class="total">$1,999</td>
+      
+  </tr>
+
+
+      <tr class="overview subtotal-row" ng-hide="subtotalPrice(8,true,0,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal</td>
+          <td class="total ng-binding">$999</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,1001,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per hour</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,1,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per day</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,7,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per week</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,14,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 2 weeks</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,30,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per month</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,60,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 2 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,90,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 3 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,180,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per 6 months</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+      <tr style="display: none;" class="overview subtotal-row" ng-hide="subtotalPrice(8,true,365,false) == 0">
+        <td colspan="5" class="overview-title">Subtotal per year</td>
+          <td class="total ng-binding">$0</td>
+          
+      </tr>
+          <tr class="overview total-row total-row-period0 total-row-total " ng-class="{'total-row-zero':0==totalPrice('0', false,false,'total')}">
+      <td colspan="5" class="overview-title">
+          Total
+      </td>
+      <td class="total ng-binding">$5,998</td>
+      
+    </tr>
+    <tr class="overview total-row total-row-with-tax total-row-period0 total-row-total">
+      <td colspan="5" class="overview-title">
+          Total with tax
+      </td>
+      <td class="total ng-binding">$5,998</td>
+      
+    </tr>
+    <tr class="overview total-row total-row-period30 total-row-total " ng-class="{'total-row-zero':0==totalPrice('30', false,false,'total')}">
+      <td colspan="5" class="overview-title">
+          Total per month
+      </td>
+      <td class="total ng-binding">$20</td>
+      
+    </tr>
+    <tr class="overview total-row total-row-with-tax total-row-period30 total-row-total">
+      <td colspan="5" class="overview-title">
+          Total with tax per month
+      </td>
+      <td class="total ng-binding">$20</td>
+      
+    </tr>
+
+  </tbody>
+</table>
+<span class="ng-binding" style="display: none;">5998</span>
+</div>
+
+
+
+      <h2 class="area-heading">
+      Date of delivery
+      </h2>
+        <p>
+	I personally consulted the scope of your project with our lead designer and lead programmer and we can guarantee completion of your website by the end of January this year.</p>
+<p>
+	&nbsp;</p>
+
+      <h2 class="area-heading">
+      Scope creep
+      </h2>
+        <p>
+	It is likely that the requirements will change over time. If that happens we will always estimate scope of the additional work for you in advance.</p>
+<p>
+	&nbsp;</p>
+
+    </div>
+    </div>
+  </div>
+  <div class="tab-pane  last-section" id="section583">
+    <div class="tab-content inner-slide">
+    <div class="proposal-section">
+    <h1 class="section-heading">Service terms</h1>
+      
+        <ul>
+	<li>
+		The quote is valid only for 30 days since creation.</li>
+	<li>
+		If you approve this proposal, we will send you our standard contract proposal for your consideration.</li>
+	<li>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis nulla orci, at viverra neque. Praesent gravida odio vitae justo tristique condimentum. In hac habitasse platea dictumst. Donec id sodales enim. Sed purus mauris, sagittis ac cursus in, suscipit nec nisl. Ut eu iaculis odio. Fusce dui leo, egestas id sollicitudin dictum, convallis eget magna.</li>
+	<li>
+		Etiam sed pulvinar leo. Vestibulum id diam eget nulla pellentesque pharetra. Nullam convallis leo eget libero porttitor feugiat.</li>
+	<li>
+		Phasellus tempus odio in nibh ornare fringilla. Sed eu augue sit amet justo pharetra pretium. Pellentesque gravida nunc sit amet augue ultrices sed adipiscing lectus rutrum.</li>
+	<li>
+		Proin cursus, est ut condimentum viverra, elit velit vehicula urna, quis dignissim ipsum nisi et sapien. Donec dictum auctor quam, ut sollicitudin urna placerat ut.</li>
+	<li>
+		Curabitur elit mauris, rhoncus in fermentum a, mattis non odio. Aenean eleifend ullamcorper facilisis.</li>
+	<li>
+		Phasellus tempus odio in nibh ornare fringilla.</li>
+	<li>
+		Proin cursus, est ut condimentum viverra, elit velit vehicula urna, quis dignissim ipsum nisi et sapien. Donec dictum auctor quam, ut sollicitudin urna placerat ut. Proin cursus, est ut condimentum viverra, elit velit vehicula urna, quis dignissim ipsum nisi et sapien. Donec dictum auctor quam, ut sollicitudin urna placerat ut.</li>
+	<li>
+		Curabitur elit mauris, rhoncus in fermentum a, mattis non odio. Quis dignissim ipsum nisi et sapien. Donec dictum auctor quam, ut sollicitudin urna placerat ut.</li>
+</ul>
+<p>
+	&nbsp;</p>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="pdf-tab" style="display: none">
+  <div id="pdf" class="proposal-pdf" style="width: 860px;height: 700px;">
+    Oops, you have no PDF viewer enabled.
+  </div>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="flashcanvas.js"></script>
+<![endif]-->
+<div class="approve-proposal-dialog-container" style="display: none;">
+<div class="approve-proposal-dialog">
+
+<div class="dialog-content">
+  <form accept-charset="UTF-8" action="approve" class="form-horizontal proposal-approve-form" method="post"><div style="display:none">
+  <input name="utf8" value="✓" type="hidden"><input name="_method" value="put" type="hidden">
+  <input name="authenticity_token" value="I1VEEyxjtyX53wTNMs362vTRkcm6p8t6Tp6SZKw7zBU=" type="hidden"></div>
+
+    <div class="center-message form-error-message" style="display: none;">
+        <div class="alert alert-error"></div>
+    </div>
+
+    <div class="optional_tables_container" style="display: none;">
+    </div>
+    <div class="optional_items_container" style="display: none;">
+    </div>
+    <div class="payment_options_container" style="display: none;">
+    </div>
+
+
+
+    <div class="control-group">
+      <label class="control-label"></label>
+      <div class="controls">
+        <div class="alert alert-info center">
+        The top message, the name input, the signature drawing area and the text area with your terms of service are all optional - you can disable them in your account settings.
+        </div>
+        <br>
+          <p>To approve this proposal please click on the "I approve this proposal" button below.</p>
+    </div></div>
+
+    <div class="control-group">
+      <label class="control-label">Type your name</label>
+      <div class="controls">
+        <input name="proposal[approved_client_name_typed]" value="" type="text">
+    </div></div>
+
+
+    <div class="control-group signature-container">
+      <label class="control-label">Draw your signature</label>
+      <div class="controls">
+        <div class="signature-inner-container">
+        <div class="signature"></div>
+        </div>
+        <input name="proposal[approved_signature_native]" value="" type="hidden">
+        <input name="proposal[approved_signature_svg]" value="" type="hidden">
+        <a href="#" class="btn clear-signature" style="visibility: hidden;">clear</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="center">
+        <a class="btn btn-large btn-success approve-proposal-proceed-button" href="#">I approve this proposal</a>
+    </div>
+
+  </form>
+</div>
+</div>
+</div>
+<div class="discuss-proposal-dialog-container" style="display: none;">
+<div class="discuss-proposal-dialog discuss-proposal-popup">
+<div class="dialog-content">
+<div class="comments comment-list"><table>
+  <tbody><tr class="comment-row">
+    <td class="gravatar-cell"><img alt="Gravatar" src="2c677a2ffdf56c169dca4d6b455c8e0f.png" title="Gravatar from www.gravatar.com"></td>
+    <td>
+
+      <div class="comment-time">
+      <time datetime="2012-08-09T21:32:34-03:00" title="August 09, 2012 21:32">August 09, 2012</time>
+      </div>
+
+      <div class="comment-top"> 
+        Bear Allen  - SoftCorp LLC (bear@softcorpllc.com)
+      </div>
+
+      <div class="comment-body">
+      <p>Hello,
+<br>does the total price include everything needed or are there some strings attached?</p>
+      </div>
+    </td>
+  </tr>
+  <tr class="comment-row">
+    <td class="gravatar-cell"><img alt="Gravatar" src="e0119ea8ac731a0253f59e4fdd702d7c.png" title="Gravatar from www.gravatar.com"></td>
+    <td>
+
+      <div class="comment-time">
+      <time datetime="2012-08-09T21:33:11-03:00" title="August 09, 2012 21:33">August 09, 2012</time>
+      </div>
+
+      <div class="comment-top"> 
+        John Doe - MegaCorp Inc. (hello@niftyquoter.com)
+      </div>
+
+      <div class="comment-body">
+      <p>Hello,
+<br>yes, everything to get your website up and running is included.</p>
+      </div>
+    </td>
+  </tr>
+  <tr class="comment-row">
+    <td class="gravatar-cell"><img alt="Gravatar" src="2c677a2ffdf56c169dca4d6b455c8e0f.png" title="Gravatar from www.gravatar.com"></td>
+    <td>
+
+      <div class="comment-time">
+      <time datetime="2012-08-09T21:33:19-03:00" title="August 09, 2012 21:33">August 09, 2012</time>
+      </div>
+
+      <div class="comment-top"> 
+        Bear Allen  - SoftCorp LLC (bear@softcorpllc.com)
+      </div>
+
+      <div class="comment-body">
+      <p>OK, thank you.</p>
+      </div>
+    </td>
+  </tr>
+</tbody></table>
+
+</div>
+
+
+<div class="alert alert-info center">
+Your client can discuss his proposal with you here.<br>You will be notified about this on your email.<br>Your response will appear on client's screen automatically without page reloading, so you can maintain almost instant-messaging like conversation.
+</div>
+
+
+<form accept-charset="UTF-8" action="#" class="form-horizontal formtastic comment" data-remote="true" id="new_comment" method="post">
+<div style="display:none"><input name="utf8" value="✓" type="hidden"></div>
+  <fieldset class="inputs">
+    <div class="text input required control-group" id="comment_body_input">
+    <label class="control-label" for="comment_body">Your comment:<abbr title="required">*</abbr></label><div class="controls">
+    <textarea class="noresize" id="comment_body" name="comment[body]"></textarea>
+
+</div></div>
+</fieldset>
+  <fieldset class="form-actions">
+    <input class="btn btn-primary" name="commit" title="Click or press Ctrl+Enter after typing" value="Add comment" type="submit">
+</fieldset></form>
+<script type="text/javascript">
+
+var updateCommentsHeight = function() {
+if($(".discuss-proposal-dialog .comments").is(':visible')){
+    $(".discuss-proposal-dialog .comments").css('overflow-y', 'hidden');
+    $('.discuss-proposal-dialog .dialog-content .comment-list').height($('.discuss-proposal-dialog .dialog-content .comment-list > *').outerHeight(true));
+    
+    if($('.discuss-proposal-dialog .dialog-content .comment-list > *').outerHeight(true) >= parseInt($('.discuss-proposal-dialog .dialog-content .comment-list').css('max-height')))
+    {
+      $(".discuss-proposal-dialog .comments").css('overflow-y', 'auto');
+      $(".discuss-proposal-dialog .comments").scrollTo( '100%', {duration: 200, onAfter: function(){ }});
+    }
+  }
+};
+    $(document).ready(function() {
+
+      $(".discuss-proposal-dialog").on("ajax:success", "a.delete-comment", function(event, data, status, xhr){
+        $(event.target).parents('tr.comment-row').remove();
+        updateCommentsHeight();
+        // reloadComments();
+      });
+      
+      $('.discuss-proposal-dialog form').keydown(function (e) {
+        if (e.ctrlKey && e.keyCode == 13) {
+          $(this).submit();
+        }
+      });
+      
+      $('.discuss-proposal-dialog form').submit( function(e){
+        e.preventDefault();
+        e.stopPropagation();
+
+
+        alert('Your clients can post comments here.');
+
+        return false;
+      });
+
+    });
+</script>
+
+
+</div>
+</div>
+</div>
+<script>
+  $(document).ready(function() {
+  
+    window.Quotes.vars.interval_const = 6;
+  
+    if($('.proposal-preview-container').length == 1)
+      window.Quotes.vars.comments_type = 'client';
+    else{
+      window.Quotes.vars.comments_type = 'user';
+      if(window.Quotes.vars.interval_const == 1)
+        window.Quotes.vars.interval_const = window.Quotes.vars.interval_const*4;
+      else
+        window.Quotes.vars.interval_const = window.Quotes.vars.interval_const*2;
+    }
+  
+    window.Quotes.vars.comments_reload_interval = 0*1000*window.Quotes.vars.interval_const;
+  
+    var reloadComments = function(){
+      
+      //console.log(window.Quotes.vars.comments_reload_interval);
+      var commentCountBefore = $('.discuss-proposal-dialog .dialog-content .comment-list tr').length;
+  
+      $.get($('.discuss-proposal-dialog form#new_comment').attr('action')+"&coco="+commentCountBefore,
+        function(){
+          //console.log('time_since_last_update '+window.Quotes.vars.time_since_last_update);
+          window.Quotes.vars.time_since_last_update += window.Quotes.vars.comments_reload_interval;
+          if(window.Quotes.vars.time_since_last_update >= 2*60*60*1000)
+            window.Quotes.vars.comments_reload_interval = 20*60*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 60*60*1000)
+            window.Quotes.vars.comments_reload_interval = 14*60*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 30*60*1000)
+            window.Quotes.vars.comments_reload_interval = 6*60*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 20*60*1000)
+            window.Quotes.vars.comments_reload_interval = 2*60*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 10*60*1000)
+            window.Quotes.vars.comments_reload_interval = 45*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 5*60*1000)
+            window.Quotes.vars.comments_reload_interval = 30*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 2*60*1000)
+            window.Quotes.vars.comments_reload_interval = 20*1000*window.Quotes.vars.interval_const;
+          else if(window.Quotes.vars.time_since_last_update >= 60*1000)
+            window.Quotes.vars.comments_reload_interval = 15*1000*window.Quotes.vars.interval_const;
+          
+          setTimeout(function(){ reloadComments(); }, window.Quotes.vars.comments_reload_interval);
+        }).error(function(){ setTimeout(function(){ reloadComments(); }, 10*window.Quotes.vars.comments_reload_interval); });
+    }
+    
+    window.Quotes.vars.time_since_last_update = 0;
+  
+    if(window.Quotes.vars.comments_reload_interval > 0)
+      setTimeout(function(){reloadComments(); }, window.Quotes.vars.comments_reload_interval);
+  
+    $('.discuss-proposal-button, .notes-proposal-button').click(function(e){
+      e.preventDefault();
+      $(this).stop(true,true);
+      $(this).find('i').stop(true,true).css('opacity','1');
+  
+      var dialog_class = '.discuss-proposal-dialog';
+      var dialog_exists = 'discuss_dialog_created';
+      var title = 'Discuss';
+  
+      if( e.currentTarget && $(e.currentTarget).hasClass('notes-proposal-button')){
+        dialog_class = '.notes-proposal-dialog';
+        dialog_exists = 'notes_dialog_created';
+        title = 'Internal notes';
+      }
+  
+      if(window.Quotes.vars[dialog_exists] !== true){
+        $(dialog_class+' input, '+dialog_class+' textarea').attr('autocomplete', 'off');
+  
+        $(dialog_class+' *').off();
+        var isModal = window.Quotes.vars.comments_type == 'client';
+        var isDraggable = !isModal;
+        
+        $(dialog_class).dialog({minWidth: 880, minHeight: 80, zIndex: 1030, title: title, modal: isModal, draggable: isDraggable, 
+          resizable: false, position: ['middle',50], dialogClass: 'nifty-dialog nifty-dialog-header', 
+          open: function(e,ui){
+  
+          $(dialog_class+' .dialog-content').css('max-height', $(window).height()-90);
+          $(dialog_class+' .dialog-content .comment-list').height($(dialog_class+' .dialog-content .comment-list > *').outerHeight(true));
+          
+          $(dialog_class+' textarea').autoResize({maxHeight: $(window).height()-80-550});
+  
+          var new_interval = 6*1000;
+          
+          if(window.Quotes.vars.comments_reload_interval == 0){
+            window.Quotes.vars.comments_reload_interval = new_interval;
+            setTimeout(function(){reloadComments(); }, window.Quotes.vars.comments_reload_interval);
+          }else{
+            window.Quotes.vars.comments_reload_interval = new_interval;
+          }
+  
+          $(dialog_class+" .comments").scrollTo( '100%', 0);
+          $('.ui-widget-overlay').live('click',
+            function(){ 
+            if($(this).parent().length > 0)
+            {
+              $(this).siblings('.ui-dialog').find('.ui-dialog-content').dialog('close');
+            }
+            });
+          }
+          });
+        window.Quotes.vars[dialog_exists] = true;
+      }else{
+        $(dialog_class).dialog('open');
+      }
+      
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('.reject-proposal-button').click(function(e){
+      e.preventDefault();
+      alert('Your clients can also reject your proposals.\nThe message for your client before and after proposal rejection can be customized.');
+    });
+    $('.approve-proposal-proceed-button').click(function(e){
+      e.preventDefault();
+      alert('Your clients can approve your proposals.\nThe message for your client after proposal approval can be customized.');
+    });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('.reject-proposal-button-reasons').click(function(e){
+      e.preventDefault();
+  
+      if(window.Quotes.vars.reject_dialog_created !== true){
+        window.Quotes.vars.reject_dialog_created = true;
+  
+        $('.reject-proposal-dialog').dialog({minWidth: 580, minHeight: 80, draggable: false, zIndex: 1030, title: 'Reject proposal', modal: true, 
+          resizable: false, position: ['middle','middle'], dialogClass: 'nifty-dialog nifty-dialog-header', 
+          open: function(e,ui){
+          $('.ui-widget-overlay').live('click',
+            function(){ 
+            if($(this).parent().length > 0)
+            {
+              $(this).siblings('.ui-dialog').find('.ui-dialog-content').dialog('close');
+            }
+            });
+          }
+          });
+  
+      }else{
+        $('.reject-proposal-dialog').dialog('option', 'position', 'center');
+        $('.reject-proposal-dialog').dialog('open');
+      }
+      return false;
+  
+    });
+  
+    $('.approve-proposal-button').click(function(e){
+      e.preventDefault();
+  
+      if(window.Quotes.vars.approve_dialog_created !== true){
+  
+        $(".approve-proposal-dialog .clear-signature").css('visibility', 'hidden');
+        $('.approve-proposal-dialog input').attr('autocomplete', 'off');
+        
+        $('.approve-proposal-dialog').dialog({minWidth: 880, minHeight: 80, draggable: false, zIndex: 1030, title: 'Approve proposal', modal: true, 
+          resizable: false, position: ['middle','middle'], dialogClass: 'nifty-dialog nifty-dialog-header', 
+          close: function(e,ui){
+            $('body').removeClass('stop-scrolling');
+          },
+          open: function(e,ui){
+          if($.browser.mozilla){
+            //alert('firefox '+$('.approve-proposal-dialog').outerHeight()+' window: '+$(window).height());
+            if($(window).height() > $('.approve-proposal-dialog').outerHeight()){
+              $('body').addClass('stop-scrolling');
+            }
+          }
+          $('.ui-widget-overlay').live('click',
+            function(){ 
+            if($(this).parent().length > 0)
+            {
+              $(this).siblings('.ui-dialog').find('.ui-dialog-content').dialog('close');
+            }
+            });
+          }
+          });
+  
+        $(".approve-proposal-dialog .signature").jSignature({sizeRatio: 4});
+        $('.approve-proposal-dialog').dialog('option', 'position', 'center');
+  
+        $(".approve-proposal-dialog .signature").on('change', function(e){
+          if ($(e.target).jSignature('getData','native').length)
+            $(".approve-proposal-dialog .clear-signature").css('visibility', 'visible');
+          else
+            $(".approve-proposal-dialog .clear-signature").css('visibility', 'hidden');
+        });
+        $(".approve-proposal-dialog .clear-signature").click(function(){
+          $(".approve-proposal-dialog .signature").jSignature('reset');
+          return false;
+        });
+        window.Quotes.vars.approve_dialog_created = true;
+      }else{
+        $('.approve-proposal-dialog').dialog('option', 'position', 'center');
+        $('.approve-proposal-dialog').dialog('open');
+      }
+      return false;
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    window.Quotes.vars.template = new Quotes.Models.Proposal({"id":1,"theme_id":4,"editable":true});
+    window.Quotes.vars.themes = null;
+    window.Quotes.vars.themes_path = "my_and_public_themes.json";
+  
+    $('.edit-theme-button').click(function(){
+      if(typeof window.Quotes.views.themes_view == 'undefined'){
+        $.get( window.Quotes.vars.themes_path, function( data ) {
+          window.Quotes.vars.themes = new Quotes.Collections.Themes(data);
+          window.Quotes.views.themes_view = new Quotes.Views.ThemeListView({collection: window.Quotes.vars.themes});
+          $('.edit-theme-dialog-content').dialog({minWidth: 674, minHeight: 520, title: 'Theme', resizable: false, position: [15,'middle'],
+           dialogClass: 'nifty-dialog nifty-dialog-header theme-edit-panel'});
+          if(window.Quotes.vars.close_theme_edit_window == true){
+            $('.edit-theme-dialog-content').dialog('close');
+            window.Quotes.vars.close_theme_edit_window = false;
+          }
+          if(window.Quotes.vars.switch_to_theme_id > 0){
+            $(".theme-edit-panel .theme-list .theme[themeid='"+(window.Quotes.vars.switch_to_theme_id)+"']").click();
+            window.Quotes.vars.switch_to_theme_id = null;
+          }
+        },'json');
+      }else
+      {
+        $('.edit-theme-dialog-content').dialog('open');
+      }
+      return false;
+    });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    window.Quotes.vars.sample_proposal_editing = true;
+    $('.edit-theme-button').click();
+  });
+</script>
+
+<footer class="footer"></footer>
+</div>
+
+</div>
+
+
+
+
+<div class="image-browser-dialog" style="display: none;"></div>
+<div aria-labelledby="ui-id-1" role="dialog" tabindex="-1" style="outline: 0px none; z-index: 1023; height: auto; width: 674px; top: 61.5px; left: 15px; display: block;"
+ class="ui-dialog ui-widget ui-widget-content ui-corner-all nifty-dialog nifty-dialog-header theme-edit-panel ui-draggable">
+ <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-id-1">Theme</span>
+ <a role="button" class="ui-dialog-titlebar-close ui-corner-all" href="#"><span class="ui-icon ui-icon-closethick">close</span></a>
+</div><div scrollleft="0" scrolltop="0" style="display: block; width: auto; min-height: 489px; height: auto;" 
+class="edit-theme-dialog-content hide ui-dialog-content ui-widget-content">
+<div class="dialog-content">
+  <div class="theme-view">
+<div class="theme-list-container">
+  <a href="#" class="btn btn-primary add-theme-button"><i class="icon icon-plus icon-white"></i> New theme</a>
+  <div class="theme-list"><div themeid="453" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #1
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-1.png" class="" alt="">
+  </div>
+</div><div themeid="103" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #2
+  </div>
+
+  <div class="theme-img image-placeholder">
+  <img style="display: none;" class="" alt="">
+  </div>
+</div><div themeid="454" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #3
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-3.png" class="" alt="">
+  </div>
+</div><div themeid="455" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #4
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-4.png" class="" alt="">
+  </div>
+</div><div themeid="456" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #5
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-5.png" class="" alt="">
+  </div>
+</div><div themeid="457" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #6
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-6.png" class="" alt="">
+  </div>
+</div><div themeid="2" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #7
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-4.png" class="" alt="">
+  </div>
+</div><div themeid="26" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #8
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-12.png" class="" alt="">
+  </div>
+</div><div themeid="24" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #9
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-17.png" class="" alt="">
+  </div>
+</div><div themeid="32" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #10
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-15.png" class="" alt="">
+  </div>
+</div><div themeid="31" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #11
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-19.png" class="" alt="">
+  </div>
+</div><div themeid="6" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #12
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-5-cover.png" class="" alt="">
+  </div>
+</div><div themeid="458" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #13
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-13.png" class="" alt="">
+  </div>
+</div><div themeid="459" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #14
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-14.png" class="" alt="">
+  </div>
+</div><div themeid="460" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #15
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-15.png" class="" alt="">
+  </div>
+</div><div themeid="4" class="theme uneditable active">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #16
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-4-cover.png" class="" alt="">
+  </div>
+</div><div themeid="27" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #17
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-13.png" class="" alt="">
+  </div>
+</div><div themeid="30" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #18
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-14.png" class="" alt="">
+  </div>
+</div><div themeid="461" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #19
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_new-19.png" class="" alt="">
+  </div>
+</div><div themeid="25" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #20
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-18.png" class="" alt="">
+  </div>
+</div><div themeid="8" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #21
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-7.png" class="" alt="">
+  </div>
+</div><div themeid="7" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #22
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-8.png" class="" alt="">
+  </div>
+</div><div themeid="3" class="theme uneditable">
+  <a href="#" class="delete-theme" title="Delete theme"><i class="icon icon-remove"></i></a>
+  <div class="theme-status"></div>
+  <div class="theme-name">
+    Theme #23
+  </div>
+
+  <div class="theme-img">
+  <img style="display: inline;" src="content_theme-9.png" class="" alt="">
+  </div>
+</div></div>
+</div>
+
+<div class="theme-edit"><div>
+<div>
+<input disabled="disabled" name="name" value="Theme #16" type="text">
+</div>
+
+<ul class="nav nav-tabs">
+  <li class=""><a href="#general" data-toggle="tab">General</a></li>
+  <li class="active"><a href="#cover-page" data-toggle="tab">Cover page</a></li>
+  <li class=""><a href="#inner-page" data-toggle="tab">Inner page</a></li>
+  <li class=""><a href="#pricing-table" data-toggle="tab">Pricing table</a></li>
+  <li class=""><a href="#recolor" data-toggle="tab">Recolor</a></li>
+  <li class=""><a href="#custom-css" data-toggle="tab">Custom CSS</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="inner-page" class="tab-pane">
+
+<div>
+<span class="theme-edit-header">Section heading</span>
+<div class="jacolorpicker" id="jacolorpickerheading_color" style="display:none;overflow:hidden;width: 200px;height: 200px;">
+</div><input style="background: none repeat scroll 0% 0% rgb(41, 112, 33); color: rgb(255, 255, 255);" class="color-please" name="heading_color" value="#297021" type="text">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta Stencil:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amarante:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Average:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bangers:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin Sketch:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Capriola:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Eagle Lake:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Electrolize:400,700"
+><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka the Great:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fresca:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fugaz One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Italianno:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Michroma:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nova Round:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Port Lligat Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ropa Sans:400,700">
+<select style="display: none;" class="font-please" name="heading_font"><option value="inherit">inherit</option><option value="PT Sans">PT Sans</option>
+<option value="Roboto">Roboto</option><option value="Open Sans">Open Sans</option><option value="Open Sans Condensed">
+Open Sans Condensed</option><option value="Chivo">Chivo</option><option value="Allerta Stencil">Allerta Stencil</option>
+<option value="Amarante">Amarante</option><option value="Audiowide">Audiowide</option><option value="Average">Average</option>
+<option value="Bangers">Bangers</option><option value="Bree Serif">Bree Serif</option><option value="Cabin Sketch">Cabin Sketch</option>
+<option value="Capriola">Capriola</option><option value="Droid Serif">Droid Serif</option><option value="Eagle Lake">Eagle Lake</option>
+<option value="Electrolize">Electrolize</option><option value="Fredericka the Great">Fredericka the Great</option><option value="Fresca">Fresca</option>
+<option value="Fugaz One">Fugaz One</option><option value="Italianno">Italianno</option><option value="Lusitana">Lusitana</option>
+<option value="Michroma">Michroma</option><option value="Nova Round">Nova Round</option><option value="Poiret One">Poiret One</option>
+<option value="Port Lligat Sans">Port Lligat Sans</option><option value="Raleway">Raleway</option><option value="Ropa Sans">Ropa Sans</option>
+</select><div class="fontSelector ui-widget"><h4 style="font-family: Ropa Sans " class="selected handle">Ropa Sans</h4><span class="handle">▼</span>
+
+</ul>
+</div>
+<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+<input role="spinbutton" autocomplete="off" aria-valuenow="24" aria-valuemin="0" class="spinner-please ui-spinner-input" name="heading_size" value="24" type="text">
+<a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a>
+<a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span>pt
+</div>
+
+<div>
+<span class="theme-edit-header">Area heading</span>
+<div class="jacolorpicker" id="jacolorpickerarea_heading_color" style="display:none;overflow:hidden;width: 200px;height: 200px;"></div>
+<input style="background: none repeat scroll 0% 0% rgb(41, 43, 41); color: rgb(255, 255, 255);" class="color-please" name="area_heading_color" value="#292b29" type="text">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta Stencil:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amarante:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Average:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bangers:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin Sketch:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Capriola:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Eagle Lake:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Electrolize:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka the Great:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fresca:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fugaz One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Italianno:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Michroma:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nova Round:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Port Lligat Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ropa Sans:400,700">
+<select style="display: none;" class="font-please" name="area_heading_font"><option value="inherit">inherit</option>
+<option value="PT Sans">PT Sans</option><option value="Roboto">Roboto</option><option value="Open Sans">Open Sans</option>
+<option value="Open Sans Condensed">Open Sans Condensed</option><option value="Chivo">Chivo</option><option value="Allerta Stencil">Allerta Stencil</option>
+<option value="Amarante">Amarante</option><option value="Audiowide">Audiowide</option><option value="Average">Average</option>
+<option value="Bangers">Bangers</option><option value="Bree Serif">Bree Serif</option><option value="Cabin Sketch">Cabin Sketch</option>
+<option value="Capriola">Capriola</option><option value="Droid Serif">Droid Serif</option><option value="Eagle Lake">Eagle Lake</option>
+<option value="Electrolize">Electrolize</option><option value="Fredericka the Great">Fredericka the Great</option><option value="Fresca">Fresca</option>
+<option value="Fugaz One">Fugaz One</option><option value="Italianno">Italianno</option><option value="Lusitana">Lusitana</option>
+<option value="Michroma">Michroma</option><option value="Nova Round">Nova Round</option><option value="Poiret One">Poiret One</option>
+<option value="Port Lligat Sans">Port Lligat Sans</option><option value="Raleway">Raleway</option><option value="Ropa Sans">Ropa Sans</option>
+</select><div class="fontSelector ui-widget">
+<h4 style="font-family: Ropa Sans" class="selected handle">Ropa Sans</h4>
+<span class="handle">▼</span><ul style="z-index: 30000;" class="fonts"><li style="font-family: inherit">Default font - Arial</li>
+<li style="font-family: PT Sans">PT Sans</li>
+<li style="font-family: Roboto">Roboto</li><li style="font-family: Open Sans">Open Sans</li>
+<li style="font-family: Open Sans Condensed">Open Sans Condensed</li>
+<li style="font-family: Chivo">Chivo</li>
+<li style="font-family: Allerta Stencil">Allerta Stencil</li>
+<li style="font-family: Amarante">Amarante</li>
+<li style="font-family: Audiowide">Audiowide</li>
+<li style="font-family: Average">Average</li>
+<li style="font-family: Bangers">Bangers</li>
+<li style="font-family: Bree Serif">Bree Serif</li>
+
+</ul></div>
+<span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input role="spinbutton" autocomplete="off" aria-valuenow="15" aria-valuemin="0" class="spinner-please ui-spinner-input" name="area_heading_size" value="15" type="text"><a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a><a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span>pt
+</div>
+
+<div>
+<span class="theme-edit-header">Text</span>
+<div class="jacolorpicker" id="jacolorpickertext_color" style="display:none;overflow:hidden;width: 200px;height: 200px;">
+</div><input style="background: none repeat scroll 0% 0% rgb(0, 0, 0); color: rgb(255, 255, 255);" class="color-please" name="text_color" value="#000000" type="text">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta Stencil:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amarante:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Average:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bangers:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin Sketch:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Capriola:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid Serif:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Eagle Lake:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Electrolize:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka the Great:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fresca:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fugaz One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Italianno:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Michroma:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nova Round:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Port Lligat Sans:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ropa Sans:400,700">
+<select style="display: none;" class="font-please" name="text_font"><option value="inherit">inherit</option>
+<option value="PT Sans">PT Sans</option><option value="Roboto">Roboto</option><option value="Open Sans">Open Sans</option>
+<option value="Open Sans Condensed">Open Sans Condensed</option><option value="Chivo">Chivo</option>
+<option value="Allerta Stencil">Allerta Stencil</option><option value="Amarante">Amarante</option>
+<option value="Audiowide">Audiowide</option><option value="Average">Average</option><option value="Bangers">Bangers</option>
+<option value="Bree Serif">Bree Serif</option><option value="Cabin Sketch">Cabin Sketch</option><option value="Capriola">Capriola</option>
+<option value="Droid Serif">Droid Serif</option><option value="Eagle Lake">Eagle Lake</option><option value="Electrolize">Electrolize</option>
+<option value="Fredericka the Great">Fredericka the Great</option><option value="Fresca">Fresca</option>
+<option value="Fugaz One">Fugaz One</option><option value="Italianno">Italianno</option><option value="Lusitana">Lusitana</option>
+<option value="Michroma">Michroma</option><option value="Nova Round">Nova Round</option><option value="Poiret One">Poiret One</option>
+<option value="Port Lligat Sans">Port Lligat Sans</option><option value="Raleway">Raleway</option><option value="Ropa Sans">Ropa Sans</option>
+</select>
+<div class="fontSelector ui-widget"><h4 style="font-family: inherit" class="selected handle">Default font - Arial</h4>
+<span class="handle">▼</span><ul style="z-index: 30000;" class="fonts">
+<li class="selected" style="font-family: inherit">Default font - Arial</li>
+<li style="font-family: PT Sans">PT Sans</li>
+<li style="font-family: Roboto">Roboto</li>
+<li style="font-family: Open Sans">Open Sans</li>
+<li style="font-family: Open Sans Condensed">Open Sans Condensed</li>
+<li style="font-family: Chivo">Chivo</li>
+<li style="font-family: Allerta Stencil">Allerta Stencil</li>
+<li style="font-family: Amarante">Amarante</li>
+<li style="font-family: Audiowide">Audiowide</li>
+<li style="font-family: Average">Average</li>
+<li style="font-family: Bangers">Bangers</li>
+<li style="font-family: Bree Serif">Bree Serif</li>
+<li style="font-family: Cabin Sketch">Cabin Sketch</li>
+<li style="font-family: Capriola">Capriola</li>
+
+</ul></div>
+<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+<input role="spinbutton" autocomplete="off" aria-valuenow="10" aria-valuemin="0" class="spinner-please ui-spinner-input" name="text_size" value="10" type="text">
+<a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a>
+<a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span>pt
+</div>
+
+<div>
+<span class="theme-edit-header">Background image</span>
+<input name="background_image_id" value="9" type="hidden">
+<input class="image-please" name="background_image" value="content_theme-4.png" type="hidden">
+<a href="#" class="btn btn-small">select or upload</a><div class="image-thumb-container"><img src="content_theme-4.png" class="image-thumb">
+<a href="#" class="unselect-image-btn"><i class="icon icon-remove"></i></a></div>
+</div>
+
+</div>
+
+<div id="general" class="tab-pane">
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Pageless web layout</span>
+  <input name="pageless_layout" value="1" checked="checked" type="checkbox">
+  </div>
+
+  <div style="margin-top: 10px;">
+  <span class="theme-edit-header theme-edit-header-wide">Background style</span>
+  <select name="web_background_style" style="width: 100px;">
+    <option value="light">White</option>
+    <option selected="" value="gray">Gray</option>
+    <option value="dark">Dark</option>
+    <option value="classic">Noise</option>
+  </select>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+  <span class="theme-edit-header theme-edit-header-wide">Left panel style</span>
+  <select name="left_side_style" style="width: 100px;">
+    <option selected="" value="style2">style #1</option>
+    <option value="style1">style #2</option>
+    <option value="style3">style #3</option>
+    <option value="classic">style #4</option>
+  </select>
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Justify text</span>
+  <input name="text_justify" value="1" checked="checked" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide" style="width: 230px;">Show page numbers in footer in PDFs?</span>
+  <input name="show_pdf_page_numbers" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Hide approve button</span>
+  <input name="hide_approve_button" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Hide reject button</span>
+  <input name="hide_reject_button" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Hide discuss button</span>
+  <input name="hide_discuss_button" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show proposal code</span>
+  <input name="show_proposal_code" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show client's address</span>
+  <input name="show_client_address" value="1" type="checkbox">
+  </div>
+
+</div>
+
+<div id="cover-page" class="tab-pane active">
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show cover page</span>
+  <input name="show_cover_page_html" value="1" checked="checked" type="checkbox">
+  </div>
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show cover page in PDF</span>
+  <input name="show_cover_page_pdf" value="1" checked="checked" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show logo in left pane</span>
+  <input name="show_left_pane_logo" value="1" checked="checked" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show logo on cover page</span>
+  <input name="show_cover_page_logo" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Hide logo in PDF</span>
+  <input name="hide_cover_page_pdf_logo" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header">Proposal name</span>
+  <div class="jacolorpicker" id="jacolorpickerproposal_name_color" style="display:none;overflow:hidden;width: 200px;height: 200px;"></div>
+  <input style="background: none repeat scroll 0% 0% rgb(41, 112, 33); color: rgb(255, 255, 255);" class="color-please" name="proposal_name_color" value="#297021" type="text">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta Stencil:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amarante:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Average:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bangers:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin Sketch:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Capriola:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid Serif:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Eagle Lake:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Electrolize:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka the Great:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fresca:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fugaz One:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Italianno:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Michroma:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nova Round:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Port Lligat Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ropa Sans:400,700">
+  <select style="display: none;" class="font-please" name="proposal_name_font"><option value="inherit">inherit</option>
+  <option value="PT Sans">PT Sans</option><option value="Roboto">Roboto</option><option value="Open Sans">Open Sans</option>
+  <option value="Open Sans Condensed">Open Sans Condensed</option><option value="Chivo">Chivo</option>
+  <option value="Allerta Stencil">Allerta Stencil</option><option value="Amarante">Amarante</option>
+  <option value="Audiowide">Audiowide</option><option value="Average">Average</option><option value="Bangers">Bangers</option>
+  <option value="Bree Serif">Bree Serif</option><option value="Cabin Sketch">Cabin Sketch</option>
+  <option value="Capriola">Capriola</option><option value="Droid Serif">Droid Serif</option>
+  <option value="Eagle Lake">Eagle Lake</option><option value="Electrolize">Electrolize</option>
+  <option value="Fredericka the Great">Fredericka the Great</option><option value="Fresca">Fresca</option>
+  <option value="Fugaz One">Fugaz One</option><option value="Italianno">Italianno</option>
+  <option value="Lusitana">Lusitana</option><option value="Michroma">Michroma</option>
+  <option value="Nova Round">Nova Round</option><option value="Poiret One">Poiret One</option>
+  <option value="Port Lligat Sans">Port Lligat Sans</option><option value="Raleway">Raleway</option>
+  <option value="Ropa Sans">Ropa Sans</option></select><div class="fontSelector ui-widget">
+  <h4 style="font-family: Ropa Sans" class="selected handle">Ropa Sans</h4>
+  <span class="handle">▼</span>
+  <ul style="z-index: 30000;" class="fonts">
+  <li style="font-family: inherit">
+  Default font - Arial</li>
+  <li style="font-family: PT Sans">PT Sans</li>
+  <li style="font-family: Roboto">Roboto</li>
+  <li style="font-family: Open Sans">Open Sans</li>
+  <li style="font-family: Open Sans Condensed">Open Sans Condensed</li>
+  <li style="font-family: Chivo">Chivo</li>
+  <li style="font-family: Allerta Stencil">Allerta Stencil</li>
+  <li style="font-family: Amarante">Amarante</li>
+  <li style="font-family: Audiowide">Audiowide</li>
+
+  </ul></div>
+  <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+  <input role="spinbutton" autocomplete="off" aria-valuenow="33" aria-valuemin="0" class="spinner-please ui-spinner-input" name="proposal_name_size" value="33" type="text">
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a>
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span> 
+  </div>
+
+  <div>
+  <span class="theme-edit-header">Proposal info</span>
+  <div class="jacolorpicker" id="jacolorpickerproposal_info_color" style="display:none;overflow:hidden;width: 200px;height: 200px;">
+  </div><input style="background: none repeat scroll 0% 0% rgb(59, 60, 59); color: rgb(255, 255, 255);" class="color-please" name="proposal_info_color" value="#3b3c3b" type="text">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Allerta Stencil:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amarante:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Average:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bangers:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin Sketch:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Capriola:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid Serif:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Eagle Lake:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Electrolize:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredericka the Great:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fresca:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fugaz One:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Italianno:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lusitana:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Michroma:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nova Round:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poiret One:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Port Lligat Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ropa Sans:400,700">
+  <select style="display: none;" class="font-please" name="proposal_info_font"><option value="inherit">inherit</option>
+  <option value="PT Sans">PT Sans</option><option value="Roboto">Roboto</option>
+  <option value="Open Sans">Open Sans</option>
+  <option value="Open Sans Condensed">Open Sans Condensed</option><option value="Chivo">Chivo</option>
+  <option value="Allerta Stencil">Allerta Stencil</option><option value="Amarante">Amarante</option>
+  <option value="Audiowide">Audiowide</option><option value="Average">Average</option>
+  <option value="Bangers">Bangers</option><option value="Bree Serif">Bree Serif</option>
+  <option value="Cabin Sketch">Cabin Sketch</option><option value="Capriola">Capriola</option>
+  <option value="Droid Serif">Droid Serif</option><option value="Eagle Lake">Eagle Lake</option>
+  <option value="Electrolize">Electrolize</option><option value="Fredericka the Great">Fredericka the Great</option>
+  <option value="Fresca">Fresca</option><option value="Fugaz One">Fugaz One</option>
+  <option value="Italianno">Italianno</option><option value="Lusitana">Lusitana</option>
+  <option value="Michroma">Michroma</option><option value="Nova Round">Nova Round</option>
+  <option value="Poiret One">Poiret One</option><option value="Port Lligat Sans">Port Lligat Sans</option>
+  <option value="Raleway">Raleway</option><option value="Ropa Sans">Ropa Sans</option>
+  </select><div class="fontSelector ui-widget">
+  <h4 style="font-family: Ropa Sans" class="selected handle">Ropa Sans</h4>
+  <span class="handle">▼</span><ul style="z-index: 30000;" class="fonts">
+  <li style="font-family: inherit">Default font - Arial</li>
+  <li style="font-family: PT Sans">PT Sans</li>
+  <li style="font-family: Roboto">Roboto</li>
+  <li style="font-family: Open Sans">Open Sans</li>
+  <li style="font-family: Open Sans Condensed">Open Sans Condensed</li>
+  <li style="font-family: Chivo">Chivo</li>
+  <li style="font-family: Allerta Stencil">Allerta Stencil</li>
+  <li style="font-family: Amarante">Amarante</li>
+  <li style="font-family: Audiowide">Audiowide</li>
+  <li style="font-family: Average">Average</li>
+  <li style="font-family: Bangers">Bangers</li>
+
+  </ul></div>
+  <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+  <input role="spinbutton" autocomplete="off" aria-valuenow="10" aria-valuemin="0" class="spinner-please ui-spinner-input" name="proposal_info_size" value="10" type="text">
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a>
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span>
+  <span>Hide: <input name="hide_proposal_info" value="1" type="checkbox"></span>
+  
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide" style="width: 185px;">Don't split background image</span>
+  <input name="show_cover_whole_image" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header theme-edit-header-wide">Show whole image</span>
+  <input name="show_cover_whole_image_height" value="1" type="checkbox">
+  </div>
+
+  <div>
+  <span class="theme-edit-header">Background image</span>
+  <input name="cover_background_image_id" value="10" type="hidden">
+  <input class="image-please" name="cover_background_image" value="content_theme-4-cover.png" type="hidden">
+  <a href="#" class="btn btn-small">select or upload</a><div class="image-thumb-container">
+  <img src="/10/content_theme-4-cover_3271e018abcbdf87e6535e81edcfd97e683e7479.png" class="image-thumb">
+  <a href="#" class="unselect-image-btn"><i class="icon icon-remove"></i></a></div>
+  <div style="font-size: 11px;">Recommended image size: Letter format - 1224x1584px, A4 - 1440x2036px. Actual sizes can vary,
+   but it is important to keep the suggested aspect ratio!</div>
+  </div>
+</div>
+
+<div id="pricing-table" class="tab-pane">
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide product codes</span>
+  <input name="hide_product_codes" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header" style="width: 160px;">Item description size</span>
+  <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+  <input role="spinbutton" autocomplete="off" aria-valuenow="10" aria-valuemin="0" class="spinner-please ui-spinner-input" name="item_description_size" value="10" type="text">
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-up ui-corner-tr"><span class="ui-icon ui-icon-triangle-1-n">▲</span></a>
+  <a tabindex="-1" class="ui-spinner-button ui-spinner-down ui-corner-br"><span class="ui-icon ui-icon-triangle-1-s">▼</span></a></span>pt
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Description in the first row</span>
+  <input name="description_inside_first_row" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide quantity column</span>
+  <input name="hide_quantity_column" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide price column</span>
+  <input name="hide_price_column" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide tax column</span>
+  <input name="hide_vat_column" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide total column</span>
+  <input name="hide_total_column" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide total with tax column</span>
+  <input name="hide_total_vat_column" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Hide total &amp; subtotal rows</span>
+  <input name="hide_total_rows" value="1" type="checkbox">
+  </div>
+
+  <div style="margin-top: 5px;">
+  <span class="theme-edit-header theme-edit-header-wide">Show total with tax row</span>
+  <input name="show_total_with_tax_summary" value="1" type="checkbox">
+  </div>
+</div>
+
+<div id="recolor" class="tab-pane">
+  <div>
+  <span class="theme-edit-header">Choose color:</span>
+  <div class="jacolorpicker" id="jacolorpickerrecolor_color" style="display:none;overflow:hidden;width: 200px;height: 200px;">
+  </div><input style="color: rgb(255, 255, 255);" class="color-please" name="recolor_color" value="" type="text">
+  <a href="" class="btn reset-colors">Reset all colors</a>
+  </div>
+</div>
+
+<div id="custom-css" class="tab-pane">
+  <div style="font-size: 11px;">
+  <b>This feature is for advanced users only!</b> - It can be used to further customize the look of your proposals.<br>
+  Tip: save this page, use Firebug or similar tool, customize css locally then paste your css here. The class which contains proposal 
+  content is ".proposal-section". To override default settings you might need to use !important keyword.<br>
+  <b>Styling PDFs:</b> add ?debug=true parameter to the PDF URL (i.e. .../proposals/10710.pdf?debug=true ) and you'll see the HTML that 
+  goes into the HTML-to-PDF converter. There are different CSS classes (html element has ".pdf-html" class instead of ".proposal-preview" class)
+  , so you can add rules only for the PDF version.<br>
+
+  <textarea name="custom_css" class="noresize editor" style="height: 160px; width: 355px;"></textarea>
+  </div>
+</div>
+
+</div>
+
+<div class="pull-right">
+  
+  
+  <a class="btn btn-primary select-theme">Save theme</a>  
+  
+</div>
+</div></div>
+
+<div class="cleaner"></div>
+</div>
+</div>
+
+</div></div>
+</div></div></body>
