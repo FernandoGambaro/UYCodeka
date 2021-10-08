@@ -3,7 +3,7 @@ funciones de javascript para comprobar formularios
 creadas por: Duilio Palacios
 e-mail: solo@otrotiempo.com
 Licencia: CreativeCommons
-Modificado por Fernando Gámbaro fernandogambaro@gmail.com 12/2020
+Modificado por Fernando Gámbaro  12/2020
 En la definición de cada campo, en el id la primer letra indica la verificación a realizar, t, n, z, q, r, e
 Para el caso de los select el valor tiene que ser diferente de '' (nulo) y mayor igual a cero
 En los textarea no pueden ser nulo
