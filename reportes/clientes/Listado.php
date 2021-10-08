@@ -168,7 +168,7 @@ $(document).ready(function(){
                     $(win.document.body)
                         .css( 'font-size', '10pt' )
                         .prepend(
-                            '<img src="https://uymcc.no-ip.org/library/images/central_min.png" style="position:absolute; top:0; right:0;" />'
+                            '<img src="./library/images/central_min.png" style="position:absolute; top:0; right:0;" />'
                         );
                         $(win.document.body).find( 'table' )
                         .addClass( 'compact' )

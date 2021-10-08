@@ -367,7 +367,7 @@ $res_usuarios=mysqli_query($GLOBALS["___mysqli_ston"], $sql_usuarios);
 							<p>&nbsp;</p>
 							<p>MCC - Soporte t&eacute;cnico <br />Mobile : (+598) (0) 96-261570 <br />Montevideo: (+598) 2486.3046 &nbsp;&nbsp;</p>
 							<p style="font-size: 0pt; line-height: 0pt; height: 30px;"><span style="color: #1f1f1f; font-family: Tahoma; font-size: 20px; font-weight: bold; line-height: 24px; text-align: center;"><br /></span></p>
-							<div style="font-size: 0pt; line-height: 0pt; height: 10px;"><img style="height: 10px;" src="http://uymcc.no-ip.org:8081/datos_sistema/images/empty.gif" alt="" width="1" height="10" /></div>
+							<div style="font-size: 0pt; line-height: 0pt; height: 10px;"><img style="height: 10px;" src="./datos_sistema/images/empty.gif" alt="" width="1" height="10" /></div>
 							<div class="text-center" style="color: #868686; font-family: Tahoma; font-size: 14px; line-height: 18px; text-align: center;">Enviado desde UYCODEKA Facturaci&oacute;n WEB<br /> Con UYCODEKA obtenga r&aacute;pidamente informaci&oacute;n sobre el estado de su empresa</div>
 							<div class="text-center" style="color: #868686; font-family: Tahoma; font-size: 14px; line-height: 18px; text-align: center;">&nbsp;</div>
 							<hr> <font size="-1">
