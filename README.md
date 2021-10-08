@@ -18,7 +18,7 @@ Gracias a que es libre logré adaptarlo a mis necesidades, teniendo además de l
 
 <h1>Una solución rica en características</h1>
 Desde que hemos tomado contacto con el código fuente de codeka.net, nuestra versión, UYCODEKA, no ha dejado de crecer en funcionalidades, en facilidad de uso y en corrección de bugs. Atendiendo multitud de sugerencias de clientes y de usuarios de otros paises. Hemos hecho de UYCODEKA una herrramienta que facilita la gestión de la pequeña y mediana empresa.
-
+<p>
 <b>0.0 Instalación.</b>
 La instalación de UYCODEKA se puede hacer de varias formas, en un hosting contratado, en su PC local o en un PC de la red (en este caso sería un servidor), para ello primero tiene que verificar que cuenta con el entorno adecuado, un servidor web Apache, el intérprete de lenguaje PHP, el servidor de base de datos MySQL y la herramienta phpMyAdmin.
 <p>
