@@ -180,7 +180,7 @@ $emailbody=$message;
 	if ($UserNom!='' and $agree==1) {
 	$uname=$UserNom." ".$UserApe;
 <<<<<<< HEAD
-$uemail="soporte@mcc.com.uy";
+
 	$ssl="ssl://".$emailhost.":".$emailpuerto."";
 			// Instanciando el Objeto  
 			$mail = new PHPMailer(); 
@@ -201,7 +201,7 @@ $uemail="soporte@mcc.com.uy";
 =======
 
 
-	$uemail="soporte@mcc.com.uy";
+	
 
 //Servidor SMTP - GMAIL usa SSL/TLS  
 //como protocolo de comunicación/autenticación por un puerto 465.  

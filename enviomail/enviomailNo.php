@@ -143,7 +143,7 @@ $message->setMaxLineLength(1000);
 $result = $mailer->send($message);		
 	
 	/*	
-	//$uemail="soporte@mcc.com.uy";
+	//
 	$uname=$nombre." ".$apellido;
 
 	$ssl="ssl://".$emailhost.":".$emailpuerto."";

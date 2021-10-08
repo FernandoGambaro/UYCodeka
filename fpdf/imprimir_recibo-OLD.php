@@ -359,7 +359,7 @@ if ($envio==1) {
    
 	if ($uemail!='') {
 		//Descomentar la siguiente línea para pruebas
-		$uemail="soporte@mcc.com.uy";
+		
 		$uname=$nombre." ".$apellido;
 	
 			$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio."";

@@ -479,7 +479,7 @@ require realpath(dirname(__FILE__)).'/vendor/phpmailer/phpmailer/src/Exception.p
 require realpath(dirname(__FILE__)).'/vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require realpath(dirname(__FILE__)).'/vendor/phpmailer/phpmailer/src/SMTP.php';
 
-$email="soporte@mcc.com.uy";
+
 $nombre="Soporte";						
 				
 							//echo $ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio;

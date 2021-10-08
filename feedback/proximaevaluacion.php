@@ -213,7 +213,7 @@ $Subject="Boletín semanal";
 
 if ($uemail!='') {
 		
-	$uemail="soporte@mcc.com.uy";
+	
 
 			$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio."";
 			$mail = new PHPMailer(); 

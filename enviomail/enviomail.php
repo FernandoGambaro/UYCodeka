@@ -113,7 +113,7 @@ $uemail=mysqli_result($rs_query, 0, "email");
 
 	if ($uemail!='') {
 		
-	//$uemail="soporte@mcc.com.uy";
+	//
 	$uname=$nombre." ".$apellido;
 
 		$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio."";

@@ -375,11 +375,11 @@ if ($envio==1) {
 	$replace = array($empresa, $nombre, $apellido, $usuario, $documento, "<b>", "</b>","","");
 	$emailbody = str_replace($text, $replace, $emailbody); 
 
-    //$uemail="soporte@mcc.com.uy";
+    //
     
 	if ($uemail!='') {
 		//Descomentar la siguiente línea para pruebas
-		//$uemail="soporte@mcc.com.uy";
+		//
 		$uname=$nombre." ".$apellido;
 	
 			$ssl=$emailsslenvio."://".$emailhostenvio.":".$emailpuertoenvio."";
