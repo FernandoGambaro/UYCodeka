@@ -68,6 +68,19 @@ if (!$s = new session()) {
 <!-- iconos para los botones -->       
 <link rel="stylesheet" href="../library/estilos/font-awesome.min.css">
 
+<style>
+.edit{
+    width: 50px;
+    height: 25px;
+}
+
+.txtedit{
+    display: none;
+    width: 50px;
+    height: 25px;
+}
+
+</style>
 
 <script type="text/javascript">
 
@@ -75,7 +88,27 @@ function showToast(text, tipo){
   parent.showToast(text, tipo);
 }
 
+function round(value, exp) {
+  if (typeof exp === 'undefined' || +exp === 0)
+    return Math.round(value);
+
+  value = +value;
+  exp  = +exp;
+
+  if (isNaN(value) || !(typeof exp === 'number' && exp % 1 === 0))
+    return NaN;
+
+  // Shift
+  value = value.toString().split('e');
+  value = Math.round(+(value[0] + 'e' + (value[1] ? (+value[1] + exp) : exp)));
+
+  // Shift back
+  value = value.toString().split('e');
+  return +(value[0] + 'e' + (value[1] ? (+value[1] - exp) : -exp));
+}
+
 var codarticulo='';
+var valorAnt=0;
 $(document).ready(function(){
   
     
@@ -101,6 +134,86 @@ $(document).ready(function(){
         var url = 'create.php';
         OpenWindow(url, form = '#frame_rejilla',w = '98%',h = '98%', Close = false, Scroll = true, CloseButton = false);
     });//Finaliza nuevo
+
+    // Show Input element
+    $('.edit').click(function(){
+        $('.txtedit').hide();
+        valorAnt = $(this).next('.txtedit').val();
+        console.log("valorAnt: "+valorAnt);
+        $(this).next('.txtedit').show().focus();
+        $(this).hide();
+    });
+
+    // Save data
+    $(".txtedit").on('focusout',function(){
+        
+        // Get edit id, field name and value
+        var id = this.id;
+        var split_id = id.split("_");
+        var field_name = split_id[0];
+        var nro_factura = split_id[1];
+        var linea = split_id[2];
+        var value = $(this).val();
+        
+        console.log("nombre del campo: "+field_name+" nro factura: "+ nro_factura + " Nº línea: "+ linea + " Valor: "+value);
+        // Hide Input element
+        $(this).hide();
+
+        // Hide and Change Text of the container with input elmeent
+        $(this).prev('.edit').show();
+        $(this).prev('.edit').text(value);
+
+        // Sending AJAX request
+        $.ajax({
+            url: 'update.php',
+            type: 'post',
+            data: { field:field_name, value:value, codfactura:nro_factura, numlinea:linea },
+            success:function(response){
+                if(response == 1){ 
+                    if(field_name=='cantidad'){
+                        var idprecio="#precio_"+nro_factura+"_"+linea;
+                        var precio = $(idprecio).val();
+                        var total = value * precio;
+                        var idtotal = "#total_"+linea;
+                        var idtotalAux = "#totalAux_"+linea;
+                        $(idtotal).val(total);
+
+                        $(idtotalAux).text(total); 
+                        
+
+                    showToast('<?php echo _('Actualizando factura');?>','success'); 
+                    var baseimponible = parent.$("#baseimponible").val();
+                    
+                    parent.$("#baseimponible").val(baseimponible-precio+total);
+
+                    var tipoiva=parent.$('#Aiva').find('option:selected').text();
+			        var valorimpuesto = tipoiva.split("~")[1];
+
+                    console.log("valorimpuesto "+valorimpuesto+ " valor :"+valorimpuesto);
+ 
+                    var original1=parseFloat((baseimponible-precio+total) * valorimpuesto / 100);
+                    var result1=round(original1 , 2) ;
+                    parent.$("#baseimpuestos").val(result1);
+                    
+                    var original2=parseFloat((baseimponible-precio+total) + result1);
+                    var result2=round(original2 , 2) ;
+
+                    parent.$("#preciototal").val(result2);
+                    parent.$("#totalfactura").val(result2);
+
+                    }else if (field_name=='precio'){
+                        console.log("id "+idtotal+ " valor :"+total);
+                    }
+                    
+                    
+                }else{ 
+                    console.log("Not saved."); 
+                    
+                }  
+            }
+        });
+    
+    });
 
 });
 

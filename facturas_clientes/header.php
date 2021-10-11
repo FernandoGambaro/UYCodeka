@@ -293,7 +293,7 @@ function round(value, exp) {
 
 		function precioiva() {
       
-			var tipoiva=$('#impuesto').find('option:selected').text();
+			var tipoiva=$('#Aiva').find('option:selected').text();
 			var valorimpuesto = tipoiva.split("~")[1];
 
 			var precio_publico=$('#precio_tienda').val();

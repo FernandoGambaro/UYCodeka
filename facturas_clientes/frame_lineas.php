@@ -132,14 +132,30 @@ foreach($rows as $row){
         echo $row['codarticulo'];
         echo "</td>";
         echo "<td>".$row['detalles']. "</td>";
-        echo "<td>".$row['cantidad'];
+        echo "<td>";
+		?>
+			<div class='edit' > <?php echo $row['cantidad']; ?></div> 
+			<input type='text' class='txtedit' value='<?php echo $row['cantidad']; ?>' id='cantidad_<?php echo $codfacturatmp;?>_<?php echo $row['numlinea'];?>' >
+		<?php
+
         echo "</td>";
-        echo "<td>".$row['precio']."</td>";
+        echo "<td>";
+		?>
+			<div class='edit' > <?php echo $row['precio']; ?></div> 
+			<input type='text' class='txtedit' value='<?php echo $row['precio']; ?>' id='precio_<?php echo $codfacturatmp;?>_<?php echo $row['numlinea'];?>' >
+		<?php
+
+		echo "</td>";
         echo "<td>". $row['dcto']. "</td>";
 
 		$importe=(float)$row["importe"];
 		$total_importe=(float)$total_importe+$importe;
-        echo "<td>".number_format($importe,2,",","."). "</td>";
+        echo "<td>";
+		?>
+			<div class='edit' id='totalAux_<?php echo $row['numlinea'];?>' > <?php echo number_format($importe,2,",","."); ?></div> 
+			<input type='text' class='txtedit' value='<?php echo number_format($importe,2,",","."); ?>' id='total_<?php echo $row['numlinea'];?>' >
+		<?php
+		echo "</td>";
 
         
         // delete user button
