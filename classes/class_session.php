@@ -149,6 +149,32 @@ class session {
     }
     return true;
   }
+
+
+  function encrypt_decrypt($action, $string) {
+    $output = false;
+
+    $encrypt_method = "AES-256-CBC";
+    $secret_key = 'venividivenci';
+    $secret_iv = '12101942';
+
+    // hash
+    $key = hash('sha256', $secret_key);
+    
+    // iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
+    $iv = substr(hash('sha256', $secret_iv), 0, 16);
+
+    if( $action == 'encrypt' ) {
+        $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
+        $output = base64_encode($output);
+    }
+    else if( $action == 'decrypt' ){
+        $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
+    }
+
+    return $output;
+}  
+
   
   /*
   load() reads in session data stored in session file.
@@ -163,6 +189,7 @@ class session {
       $this->log .= "Could not read ".$this->filename."<br />";
       return false;
     }
+    $x = $this->encrypt_decrypt('decrypt', $x);
     if (!$this->data = unserialize($x)) {
       $this->log .= "unserialize failed<br />";
       $this->data = array();
@@ -186,7 +213,8 @@ class session {
       return false;
     }
     //write to file
-    if (!@fwrite($fp,serialize($this->data))) {
+    $x = serialize($this->data);
+    if (!@fwrite($fp,$this->encrypt_decrypt('encrypt', $x))) {
       $this->log .= "Could not write to ".$this->filename."<br />";
       fclose($fp);
       return false;
