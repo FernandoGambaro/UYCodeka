@@ -1,7 +1,8 @@
 <?php
 $page_title="Listado de horas clientes/proyectos";
 
-if(strlen($_GET["codcliente"])>0){ $codcliente=$_GET["codcliente"]; } else { $codcliente='';}
+$codcliente = isset($_GET['codcliente']) ? $_GET['codcliente'] : "";
+
 
 include_once "header.php";
 
