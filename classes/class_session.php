@@ -58,9 +58,13 @@ class session {
     dirs. It is highly recommended that you set this to a non web-accessible
     dir. End this value with a "/".
     */
-//    $this->dir =  $_SERVER['DOCUMENT_ROOT']."/tmp/";
+    //$this->dir =  $_SERVER['DOCUMENT_ROOT']."/tmp/";
     /*Reemplazar por el real path del servidor*/
     $this->dir = realpath(dirname(__FILE__))."/../tmp/";
+    /*
+      En caso de que no se pued crear el archivo en la carpeta tmp, verificar permisos y/o
+      ejecutar pues SELinux controla que se pueda escribir en ella chcon -R -t httpd_sys_rw_content_t /path
+    */
    
     if ($this->exists()) {
       $this->log .= "sid: ".$this->id."<br />";
@@ -142,10 +146,27 @@ class session {
     $this->log .= "newId() called<br />";
     $this->id = md5(uniqid(rand(), true));
     $this->filename = $this->dir."sid_".$this->id;
-    if (!setcookie('sid' ,$this->id, null, "/")) {
-      $this->log .= "sid cookie save failed. This may be due to browser"
-        ." output started prior or the user has disabled cookies.<br />";
-      return false;
+
+    if (PHP_VERSION_ID < 70300) {
+      if (!setcookie('sid' ,$this->id, null, '/; samesite=Strict')) {
+        $this->log .= "sid cookie save failed. This may be due to browser"
+          ." output started prior or the user has disabled cookies.<br />";
+        return false;
+      }
+    }else{
+      $cookie_options = array(
+        'expires' => time() + 60*60*24*30,
+        'path' => '/',
+        'domain' => $_SERVER['HTTP_HOST'], // leading dot for compatibility or use subdomain
+        'secure' => true, // or false
+        'httponly' => false, // or false
+        'samesite' => 'Lax' // None || Lax || Strict
+      );
+      
+      if(!setcookie("sid", $this->id, $cookie_options)){
+        return false;
+      }
+
     }
     return true;
   }

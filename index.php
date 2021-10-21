@@ -49,12 +49,12 @@ function Validate()
     if ($_POST['nombre'] != "") {
         $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_EMAIL);
         if (!filter_var($nombre, FILTER_VALIDATE_EMAIL)) {
-            $status_msg .= ' <strong>'.$nombre ._(' NO válido').'</strong><br>';
+            $status_msg .= ' <strong>'.$nombre ._('NO válido').'</strong><br>';
             $ret = false;
             $password = "";
         }
     } else {
-        $status_msg .= _(' Ingrese usuario válido').'<br>';
+        $status_msg .= _('Ingrese usuario válido').'<br>';
         $ret = false;
         $password = "";
     }
@@ -116,9 +116,9 @@ function Auth()
             } else {
                 $encoded = $converter->encode($password);
             }
-            //echo "Muestro contraseña ". $encoded;
+            //echo $encoded;
             if ($r_ok['usuario'] != $nombre && $r_ok['contrasenia'] != $encoded) {
-                $status_msg .= $nombre . _(' El usuario o la contraseña que ha ingresado no son correctas');
+                $status_msg .= $nombre . _('El usuario o la contraseña que ha ingresado no son correctas');
                 $nombre = "";
                 $password = "";
                 return false;
@@ -152,7 +152,7 @@ function Auth()
             }			
 
         } else {
-            $status_msg = $nombre . _(' El usuario no existe o no esta habilitado');
+            $status_msg = $nombre . _('El usuario no existe o no esta habilitado');
         }
     }
 }
@@ -171,7 +171,7 @@ if($mantenimiento==1){
     </div>
 <?php
 die();
-}
+} else { 
 
     $tratamiento = '';
     $status_msg = isset($s->data['msg']) ? $s->data['msg'] : "";
@@ -278,7 +278,7 @@ die();
                             //Asignamos el valor al objeto localStorage
                             function redireccionar() {
                                 console.log("algo-> " + usermail);
-                                window.location.replace('menu.php');
+                                window.location.replace('/menu.php');
                             }
                             setTimeout("redireccionar()", 1);
                         </script>
@@ -288,18 +288,27 @@ die();
                     <?php
 
                 }
+                else{
+                    LoginForm($act);
+                }
+            }else{
+                LoginForm($act);
             }
         }else{
             $status_msg = $nombre . _('Captcha no válida');
+            LoginForm($act);
         }
     } else {
         $s->expire();
         $nombre = "";
         $password = "";
     }
-//Aquí comienza el proceso de ingreso
-LoginForm($act);
 
+} 
+}
+//Aquí comienza el proceso de ingreso
+if(!$_POST){
+LoginForm($act);
 }
 
 function LoginForm($act)

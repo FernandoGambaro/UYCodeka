@@ -30,6 +30,13 @@ require_once __DIR__ . '/common/verificopermisos.php';
 require_once __DIR__ . '/library/conector/consultas.php';
 use App\Consultas;
 
+if (!$s = new session()) {
+    echo "<h2>"._('Ocurrió un error al iniciar session')."!</h2>";
+    echo $s->log;
+    exit();
+}
+
+
 if (strlen($_GET['u']) > 0) {
     //Verifico el el usuario esté intentando acceder desde una red local
 
@@ -463,7 +470,7 @@ $leer = verificopermisos('reportesvarios', 'leer', $UserID);
 				<a class="dropdown-item" href="./ventas/index.php" target="principal"><span class="fa-stack"><i class="fa fa-flag-o" aria-hidden="true"></i></span><?php echo _('Ventas'); ?></a>
 				<?php }
     $leer = verificopermisos('reportesabonados', 'leer', $UserID);
-    if ($UserTpo == 1000 or $leer == "strue") {?>
+    if ($UserTpo == 100 or $leer == "true") {?>
 				<a class="dropdown-item" href="./abonados/index.php" target="principal"><span class="fa-stack"><i class="fa fa-users" aria-hidden="true"></i></span><?php echo _('Abonados'); ?></a>
 				<?php }
     $leer = verificopermisos('reportesarticulos', 'leer', $UserID);
@@ -516,7 +523,7 @@ if ($UserTpo == 100 or $leer == "true" or $leer2 == "true") {?>
 				<?php	}
 $leer = verificopermisos('articulosentransito', 'leer', $UserID);
 if ($UserTpo == 100 or $leer == "true") {?>
-				<a class="dropdown-item" href="#"><?php echo _('Artículos en tránsito'); ?></a>
+				<a class="dropdown-item" href="./articulos_transito/index.php" target="principal"><?php echo _('Artículos en tránsito'); ?></a>
 				<div class="dropdown-divider"></div>
 				<?php	}
 $leer = verificopermisos('articulos', 'leer', $UserID);
@@ -943,8 +950,8 @@ function mensaje(msg) {
 }
 </script>
 
-		<link rel="stylesheet" href="./library/colorbox/colorbox.css" />
-		<script src="./library/colorbox/jquery.colorbox.js"></script>
+		<link rel="stylesheet" href="../library/colorbox/colorbox.css" />
+		<script src="../library/colorbox/jquery.colorbox.js"></script>
 
 <script type="text/javascript" >
 

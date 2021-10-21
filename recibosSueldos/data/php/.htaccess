@@ -1,3 +1,0 @@
-#AuthName "Authorization required"
-#AuthType Basic
-#require valid-user
